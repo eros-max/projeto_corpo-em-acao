@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo span {
+    font-weight: bold;
+}
+
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 30px 6%;
+    top: -13px;
+    left: 0;
+    background: #FF4C4C;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+header i{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin-left: 70px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.login button{
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 30px;
+    background-color:#ffffff;
+    color: #FF4C4C;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+main {
+    padding: 50px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.texto h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.explorar {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+.imagem img {
+    width: 400px;
+    
+}
+
+.barra {
+    width: 1023px;
+    height: 3px;
+    background-color: rgb(214, 212, 212);
+    border-radius: 15px;
+    margin-top: -17px;
+}
