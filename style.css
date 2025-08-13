@@ -13,6 +13,7 @@
     --azul-ciano: #0CC0DF;
     --vermelho-claro: #FE6565;
     --branco: #FFF;
+    --azul-escuro: #004AAD;
 }
 
 
@@ -24,14 +25,14 @@ body {
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 34px;
     font-weight: bold;
     text-decoration: none;
     color: #fff;
 }
 
 .logo span {
-    font-weight: bold;
+    font-weight:100;
 }
 
 
@@ -69,8 +70,8 @@ header ul{
 }
 
 header ul li{
-    display: inline-block;
-    margin-left: 70px;
+    display:inline-block;
+    margin-left: 200px;
 }
 
 header ul li a{
@@ -97,13 +98,13 @@ main {
 
 .conteudo {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content: space-around;
   
 }
 
 .texto h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 40px;
 }
@@ -285,7 +286,76 @@ main {
     color: var(--branco);
 }
 
+/*FOTOS DO GRUPO*/
 
+
+
+.nosso-grupo h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+.fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+
+.fotos p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.fotos img {
+    border: 3px solid var(--azul-escuro);
+    border-radius: 100%;
+    width: 115px;
+    height: 115px;
+}
+
+
+.nosso-grupo {
+  margin-top: 100px;
+}
+
+.nosso-grupo h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+.fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+
+.fotos p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.fotos img {
+    border: 3px solid var(--azul-escuro);
+    border-radius: 100%;
+    width: 115px;
+    height: 115px;
+}
 
 
 footer {
@@ -293,6 +363,7 @@ footer {
     color: white;
     padding: 30px 50px;
     margin-top: 100px;
+ 
 }
 
 .footer-container {
@@ -319,7 +390,7 @@ footer {
 
 .social-icons img {
     color: white;
-    font-size: 10px;
+    font-size: 4px;
     margin-right: 45px;
     text-decoration: none;
 }
@@ -403,3 +474,5 @@ footer {
     font-size: 23px;
     margin-bottom: 30px;
 }
+
+
