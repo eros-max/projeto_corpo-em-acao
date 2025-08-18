@@ -286,7 +286,34 @@ main {
     color: var(--branco);
 }
 
+.videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*SLIDER*/
+
+.siema {
+    margin: auto;
+    width: 840px;
+    height: 300px;
+   
+}
+
+.siema img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid black;
+    gap: 20px;
+}
+
 /*FOTOS DO GRUPO*/
+
 
 
 
@@ -307,11 +334,13 @@ main {
     gap: 100px;
 }
 
-.fotos p {
+.fotos a {
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .fotos img {
