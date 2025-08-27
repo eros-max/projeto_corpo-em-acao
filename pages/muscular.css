@@ -1,18 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    display: flex;
-     flex-direction: column;
-    align-items: center;
-    font-size: 62.5%;
 }
 
 :root {
@@ -23,6 +14,7 @@ body {
     --vermelho-claro: #FE6565;
     --branco: #FFF;
     --azul-escuro: #004AAD;
+    --vermelho-bem-claro: #F4A6A6;
     font-size: 62.5%;
 }
 
@@ -104,54 +96,76 @@ header ul li a{
     font-size: 1.8rem;
 }
 
-/*GLOSSARIO*/
 
+.icones-temas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-block: 5.0rem;
+}
 
+.icones-temas img {
+    width: 5.0rem;
+    height: 5.0rem;
+}
 
-.container {
-    margin-block: 10.0rem 5rem;
+.item-icone5{
+    opacity:50%;
+    border-radius: 5.0rem;
+    background-color: #c7493b;
+    font-size: 2.0rem;
+}
+
+.icones-temas img:hover {
+    opacity: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    align-items: center;
+  }
+  .titulo {
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--azul-ciano); 
-    width: 80.0rem;
-    border-radius: 1.0rem;
-    padding: 2.0rem;
-      box-shadow: 0 .2rem .4rem#000;
+    margin-top: 10.0rem;
 }
 
-.titulo {
-    color: var(--branco);
-    font-size: 5.0rem;
-    margin-bottom: .5rem;
+.titulo h1 {
+    font-size: 4.5rem;
+    margin-left: 15.0rem;
 }
 
-.subtitulo {
-    color: var(--branco);
-    font-size: 2.0rem;
-    margin-bottom: 2.0rem;
+.titulo img  {
+    margin-right: -5.0rem;
 }
 
-.glossario {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
+.barralaranja {
+    margin-left: -100.0rem;
 }
 
-.item {
-    background-color: var(--branco);
-    border-radius: .8rem;
-    padding: 1.0rem;
-    box-shadow: 0 .2rem .4rem#000;
+.barralaranja img {
+    height: 15.0rem;
+    background: var(--azul-escuro);
 }
 
-.item h3 {
-    font-size: 1.4rem;
-    margin-bottom: .8rem;
-    color: #000;
+.paragrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 2.0rem;
+    border-bottom-left-radius: 2.0rem;
+    background-color: var(--vermelho-bem-claro);
+    margin-top: 15.0rem;
+    margin-left: 65.0rem;
+    padding: 5.5rem;
 }
 
-.item p {
-    font-size: 1.2rem;
-    color: #000;
-    line-height: 1.4;
+.paragrafo p {
+    text-indent: 2.5rem;
+    font-size: 2.4rem;
+    text-align: justify;
+    font-weight: 60.0;
 }

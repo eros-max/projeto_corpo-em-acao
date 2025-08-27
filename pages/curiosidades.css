@@ -1,0 +1,74 @@
+@import url('./header.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.div-titulo-dentro {
+    margin-top: 20.0rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.div-titulo-dentro h1 {
+    font-weight: 625;
+    font-family: 'Montserrat' , sans-serif;
+    margin-left: 12.0rem;
+}
+
+.div-titulo-dentro img {
+    margin: -5.0rem;
+}
+
+.barra-laranjinha {
+    height: 12.0rem;
+    width: 60.0rem;
+}
+
+.barra-dentro {
+    background-color: orange;
+}
+
+.div-titulo-fora {
+    margin-bottom: 10rem;
+}
+
+.digestorio-icones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.digestorio-icones1, .digestorio-icones2 {
+    display: flex;
+    margin-top: 6rem;
+    width: 175svh;
+    gap: 2.0rem;
+    border: 1px red solid;
+    justify-content: space-between;
+}
+
+.digestorio-icon {
+    background-color: var(--amarelo-claro);
+    display: flex;
+    height: 23rem;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3.2rem;
+    border: 1px red solid;
+    justify-content: space-evenly;
+    max-width: 50rem;
+}
+
+
+.digestorio-icon img{
+    align-items: baseline;
+    width: 70px;
+}
+
+.digestorio-icon p {
+    max-width: 60%;
+    text-align: justify;
+}
+

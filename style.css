@@ -14,6 +14,7 @@
     --vermelho-claro: #FE6565;
     --branco: #FFF;
     --azul-escuro: #004AAD;
+    font-size: 62.5%;
 }
 
 
@@ -22,10 +23,11 @@ body {
     background-color: #fff;
     margin: 0;
     padding: 0;
+    font-size: 1.6rem;
 }
 
 .logo {
-    font-size: 34px;
+    font-size: 3.4rem;
     font-weight: bold;
     text-decoration: none;
     color: #fff;
@@ -48,20 +50,21 @@ body {
 
 header{
     width: 100%;
-    padding: 30px 6%;
-    top: -13px;
+    padding: 3.0rem 6%;
+    top: -1.3rem;
     left: 0;
     background: #FE6565;
+    font-size: 1.8rem;
 }
 
 header img{
-    width: 50px;
-    height: 50px;
+    width: 5.0rem;
+    height: 5.0rem;
     border-radius: 100%;
 }
 
 header i{
-    font-size: 30px;
+    font-size: 3.0rem;
     color: #fff;
 }
 
@@ -71,7 +74,7 @@ header ul{
 
 header ul li{
     display:inline-block;
-    margin-left: 200px;
+    margin-left: 20.0rem;
 }
 
 header ul li a{
@@ -80,20 +83,20 @@ header ul li a{
 }
 
 .login button{
-    width: 120px;
-    height: 40px;
+    width: 12.0rem;
+    height: 4.0rem;
     font-weight: bold;
     border: 0;
-    border-radius: 30px;
-    background-color:#ffffff;
+    border-radius: 3.0rem;
+    background-color: var(--branco);
     color: #FE6565;
     cursor: pointer;
     transition: .2s;
+    font-size: 1.8rem;
 }
 
-
 main {
-    padding: 50px;
+    padding: 5.0rem;
 }
 
 .conteudo {
@@ -104,9 +107,9 @@ main {
 }
 
 .texto h1 {
-    font-size: 60px;
+    font-size: 6.0rem;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 4.0rem;
 }
 
 .explorar {
@@ -114,55 +117,54 @@ main {
     color: white;
     cursor: pointer;
     transition: .2s;
-    padding: 10px 20px;
-    border-radius: 8px;
+    padding: 1.0rem 2.0rem;
+    border-radius: 0.8rem;
     text-decoration: none;
     font-weight: bold;
    
 }
 
 .imagem img {
-    width: 400px;
-    
+    width: 40rem;
 }
 
 .barra {
-    width: 1800px;
-    height: 3px;
+    width: 180rem;
+    height: .3rem;
     background-color: rgb(214, 212, 212);
-    border-radius: 15px;
-    margin-top: -17px;
+    border-radius: 1.5rem;
+    margin-top: -1.7rem;
 }
 
 .oque-descobrir {
     background-color: var(--amarelo-claro);
-    height: 462px;
-    padding-top: 32px;
-    margin-bottom: 100px;
+    height: 46.2rem;
+    padding-top: 3.2rem;
+    margin-bottom: 10.0rem;
 }
 
 .icones-descobrir img {
-    width: 115px;
-    height: 115px;
-    margin-bottom: 10px;
+    width: 11.5rem;
+    height: 11.5rem;
+    margin-bottom: 1.0rem;
 }
 
 .h2-oque-descobrir{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 80px;
-    font-size: 30px;
+    margin-bottom: 8.0rem;
+    font-size: 3.0rem;
     font-weight: 700;
 }
 
 .icones-descobrir {
     display: flex;
-    margin-inline: 360px;
-    font-size: 20px;
+    margin-inline: 36.0rem;
+    font-size: 2.0rem;
     font-weight: 400;
     font-style: normal;
-    gap: 100px;
+    gap: 10.0rem;
 }
 
 .item-descobrir-1 {
@@ -172,10 +174,10 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 320px;
-    height: 220px;
-    border-radius: 30px;
-    font-size: 20px;
+    width: 32.0rem;
+    height: 22.0rem;
+    border-radius: 3.0rem;
+    font-size: 2.0rem;
 }
 
 .item-descobrir-2 {
@@ -185,11 +187,11 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 10px;
-    width: 350px;
-    height: 220px;
-    border-radius: 30px;
-    font-size: 20px;
+    margin-top: 1.0rem;
+    width: 35.0rem;
+    height: 22.0rem;
+    border-radius: 3.0rem;
+    font-size: 2.0rem;
 }
 
 .item-descobrir-3 {
@@ -199,10 +201,10 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 320px;
-    height: 220px;
-    border-radius: 30px;
-    font-size: 20px;
+    width: 32.0rem;
+    height: 22.0rem;
+    border-radius: 3.0rem;
+    font-size: 2.0rem;
 }
 
 
@@ -210,8 +212,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 127px;
-    font-size: 30px;
+    margin-bottom: 12.7rem;
+    font-size: 3.0rem;
     font-weight: 700;
     font-style: normal;
 }
@@ -227,71 +229,80 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-inline: 74px;
-    font-size: 20px;
+    margin-inline: 7.4rem;
+    font-size: 2.0rem;
     font-weight: 400;
     font-style: normal;
 }
 
 .item-icone img {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 30px;
+    width: 15.0rem;
+    height: 15.0rem;
+    margin-bottom: 3.0rem;
 }
 
 .voce-sabia {
     display: flex;
     align-items: center;
     background-color: var(--amarelo-banana);
-    margin-top: 100px;
-    margin-inline: 200px;
-    padding-inline: 150px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    border-radius: 50px;
+    margin-top: 10.0rem;
+    margin-inline: 20.0rem;
+    padding-inline: 15.0rem;
+    padding-top: 7.0rem;
+    padding-bottom: 7.0rem;
+    border-radius: 5.0rem;
 }
 
 .voce-sabia img {
     display: flex;
     justify-content: end;
-    width: 325px;
-    height: 325px;
+    width: 32.5rem;
+    height: 32.5rem;
 }
 
 .textos-voce-sabia {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-    margin-right: 300px;
+    margin-left: 10.0rem;
+    margin-right: 30.0rem;
 }
 
 .textos-voce-sabia h2 {
-    font-size: 45px;
-    margin-bottom: 20px;
+    font-size: 4.5rem;
+    margin-bottom: 2.0rem;
 }
 
 .textos-voce-sabia h3 {
-    font-size: 23px;
-    margin-bottom: 40px;
+    font-size: 2.3rem;
+    margin-bottom: 4.0rem;
 }
 
-.textos-voce-sabia button {
-    font-size: 23px;
-    font-weight: 700;
-    background-color: var(--verde-folha);
+.textos-voce-sabia a {
+    margin-left: -10.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
     border: none;
-    border-radius: 20px;
-    width: 193px;
-    height: 50px;
+    background-color: var(--verde-folha);
     color: var(--branco);
+    border-radius: 2.0rem;
+    height: 5.5rem;
+    text-decoration: none;
+    width: 22.0rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+    cursor: pointer;
 }
 
 .videos {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-block: 50px;
-    font-size: 30px;
+    margin-top: 5.0rem;
+    margin-bottom: 7.0rem;
+    font-size: 3.0rem;
     font-weight: 700;
 }
 
@@ -299,19 +310,98 @@ main {
 
 .siema {
     margin: auto;
-    width: 840px;
-    height: 300px;
-   
+    width: 84.0rem;
+    height: 30.0rem;
 }
 
 .siema img {
-    width: 400px;
-    height: 300px;
+    width: 40.0rem;
+    height: 30.0rem;
     object-fit: cover;
-    border: 2px solid black;
-    gap: 20px;
+    border: 0.2rem solid rgb(131, 131, 131);
+    margin-left: 7.5rem;
 }
 
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.slider button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    display: flex;
+    justify-content: center;
+    margin-left: 38.0rem;
+    width: 8.0rem;
+    height: 8.0rem;
+}
+
+
+.next {
+    display: flex;
+    justify-content: center;
+    margin-right: 38.0rem;
+    width: 8.0rem;
+    height: 8.0rem;
+}
+
+.setabaixo1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5.0rem;
+}
+
+.setabaixo1 button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.setabaixo1 img {
+    width: 8.0rem;
+    height: 8.0rem;
+}
+
+.setabaixo2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5rem;
+    margin-bottom: 5.0rem;
+}
+
+.setabaixo2 button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.setabaixo2 img {
+    width: 8.0rem;
+    height: 8.0rem;
+}
+
+.setacima {
+    display: flex;
+    justify-content: center;
+    margin-top: 10.0rem;
+}
+
+.setacima button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.setacima img {
+    width: 8.0rem;
+    height: 8.0rem;
+}
+    
 /*FOTOS DO GRUPO*/
 
 
@@ -322,8 +412,8 @@ main {
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 100px;
+    font-size: 3.5rem;
+    margin-bottom: 10.0rem;
 }
 
 .fotos {
@@ -331,7 +421,7 @@ main {
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 100px;
+    gap: 10.0rem;
 }
 
 .fotos a {
@@ -344,15 +434,15 @@ main {
 }
 
 .fotos img {
-    border: 3px solid var(--azul-escuro);
+    border: .3rem solid var(--azul-escuro);
     border-radius: 100%;
-    width: 115px;
-    height: 115px;
+    width: 11.5rem;
+    height: 11.5rem;
 }
 
 
 .nosso-grupo {
-  margin-top: 100px;
+  margin-top: 10.0rem;
 }
 
 .nosso-grupo h2 {
@@ -360,8 +450,8 @@ main {
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 100px;
+    font-size: 3.5rem;
+    margin-bottom: 10.0rem;
 }
 
 .fotos {
@@ -369,7 +459,7 @@ main {
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 100px;
+    gap: 10.0rem;
 }
 
 .fotos p {
@@ -380,18 +470,18 @@ main {
 }
 
 .fotos img {
-    border: 3px solid var(--azul-escuro);
+    border: .3rem solid var(--azul-escuro);
     border-radius: 100%;
-    width: 115px;
-    height: 115px;
+    width: 11.5rem;
+    height: 11.5rem;
 }
 
 
 footer {
     background-color: #f44336;
     color: white;
-    padding: 30px 50px;
-    margin-top: 100px;
+    padding: 3.0rem 5.0rem;
+    margin-top: 10.0rem;
  
 }
 
@@ -403,9 +493,9 @@ footer {
 }
 
 .footer-logo h2 {
-    font-size: 20px;
+    font-size: 2.0rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1.0rem;
 }
 
 .footer-logo h2 span {
@@ -413,21 +503,21 @@ footer {
 }
 
 .footer-logo p {
-    font-size: 14px;
-    margin-bottom: 15px;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
 }
 
 .social-icons img {
     color: white;
-    font-size: 4px;
-    margin-right: 45px;
+    font-size: .4rem;
+    margin-right: 4.5rem;
     text-decoration: none;
 }
 
 .footer-menu h3 {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1.0rem;
 }
 
 .footer-menu ul {
@@ -435,13 +525,13 @@ footer {
 }
 
 .footer-menu ul li {
-    margin-bottom: 8px;
+    margin-bottom: .8rem;
 }
 
 .footer-menu ul li a {
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .footer-menu ul li a:hover {
@@ -460,11 +550,11 @@ footer {
 .explorar-termos {
     background-color: var(--amarelo-claro);
     display: flex;
-    margin-top: 100px;
+    margin-top: 10.0rem;
     align-items: center;
-    padding-block: 40px;
-    padding-inline: 430px;
-    gap: 110px;
+    padding-block: 4.0rem;
+    padding-inline: 43.0rem;
+    gap: 11.0rem;
     font-weight: 700;
 }
 
@@ -472,21 +562,27 @@ footer {
 
 
 .explorar-termos img {
-    width: 368px;
-    height: 333px;
+    width: 36.8rem;
+    height: 33.3rem;
 }
 
 
-.explorar-termos button {
+.explorar-termos a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     align-self: center;
     border: none;
     background-color: var(--verde-folha);
     color: var(--branco);
-    border-radius: 20px;
-    height: 55px;
-    width: 250px;
+    border-radius: 2.0rem;
+    height: 5.5rem;
+    text-decoration: none;
+    width: 25.0rem;
     font-weight: 700;
-    font-size: 23px;
+    font-size: 2.3rem;
+    cursor: pointer;
 }
 
 .textos-explorar {
@@ -495,13 +591,13 @@ footer {
 }
 
 .textos-explorar h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 4.0rem;
+    margin-bottom: 1.0rem;
 }
 
 .textos-explorar h2 {
-    font-size: 23px;
-    margin-bottom: 30px;
+    font-size: 2.3rem;
+    margin-bottom: 3.0rem;
 }
 
 

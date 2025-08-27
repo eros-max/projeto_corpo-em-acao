@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 :root {
     --amarelo-claro: #FDF0B2;
     --amarelo-banana: #FFDE59;
@@ -14,18 +15,21 @@
     --vermelho-claro: #FE6565;
     --branco: #FFF;
     --azul-escuro: #004AAD;
+    --laranja: #c59836;
+    font-size: 62.5%;
 }
 
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
+    background-color: var(--branco);
     margin: 0;
     padding: 0;
+    font-size: 1.6rem;
 }
 
 .logo {
-    font-size: 34px;
+    font-size: 3.4rem;
     font-weight: bold;
     text-decoration: none;
     color: #fff;
@@ -48,21 +52,22 @@ body {
 
 header{
     width: 100%;
-    padding: 30px 6%;
-    top: -13px;
+    padding: 3.0rem 6%;
+    top: -1.3rem;
     left: 0;
-    background: #FE6565;
+    background: var(--vermelho-claro);
+    font-size: 1.8rem;
 }
 
 header img{
-    width: 50px;
-    height: 50px;
+    width: 5.0rem;
+    height: 5.0rem;
     border-radius: 100%;
 }
 
 header i{
-    font-size: 30px;
-    color: #fff;
+    font-size: 3.0rem;
+    color: var(--branco);
 }
 
 header ul{
@@ -71,29 +76,30 @@ header ul{
 
 header ul li{
     display:inline-block;
-    margin-left: 200px;
+    margin-left: 20.0rem;
 }
 
 header ul li a{
-    color: #fff;
+    color: var(--branco);
     text-decoration: none;
 }
 
 .login button{
-    width: 120px;
-    height: 40px;
+    width: 12.0rem;
+    height: 4.0rem;
     font-weight: bold;
     border: 0;
-    border-radius: 30px;
-    background-color:#ffffff;
-    color: #FE6565;
+    border-radius: 3.0rem;
+    background-color: var(--branco);
+    color: var(--vermelho-claro);
     cursor: pointer;
     transition: .2s;
+    font-size: 1.8rem;
 }
 
 
 main {
-    padding: 50px;
+    padding: 5.0rem;
 }
 
 
@@ -101,14 +107,19 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 35px;
-    margin-block: 50px;
+    gap: 3.5rem;
+    margin-block: 5.0rem;
 }
 
 .icones-temas img {
-    width: 50px;
-    height: 50px;
-    opacity: 60%;
+    width: 5.0rem;
+    height: 5.0rem;
+}
+.item-icone1{
+    opacity: 50%;
+    border-radius: 5.0rem;
+    background-color: var(--laranja);
+    font-size: 2.0rem;
 }
 
 .icones-temas img:hover {
@@ -124,95 +135,114 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 10.0rem;
 }
 
 .titulo h1 {
-    font-size: 45px;
-    margin-left: 150px;
+    font-size: 4.5rem;
+    margin-left: -60.0rem;
 }
 
 .titulo img  {
-    margin-right: -50px;
+    margin-right: -5.0rem;
 
 }
 
 .barralaranja {
-    margin-left: -1000px;
+    display: flex;
+    align-items: start;
+    margin-right: 80.0rem;
+    margin-left: -43.4rem;
 }
 
-.barralaranja img {
-    height: 150px;
+.barra-laranja {
+    height: 15.0rem;
+    width: 68.5rem;
+}
+
+
+.iconedigestivo  {
+    margin-top: -2.0rem;
 }
 
 .paragrafo {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 2.0rem;
+    border-bottom-left-radius: 2.0rem;
     background-color: var(--amarelo-claro);
-    margin-top: 150px;
-    margin-left: 650px;
-    padding: 55px;
+    margin-top: 15.0rem;
+    margin-left: 65.0rem;
+    padding: 5.5rem;
 }
 
 .paragrafo p {
-    text-indent: 25px;
-    font-size: 24px;
+    text-indent: 2.5rem;
+    font-size: 2.4rem;
     text-align: justify;
     font-weight: 600;
 }
 
 .corpohumano  {
     display: flex;
-    margin-top: 100px;
+    margin-top: 10.0rem;
 }
 
 .corpohumano h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
-    padding-bottom: 50px;
-    margin-top: -50px;
+    font-size: 4.0rem;
+    padding-bottom: 5.0rem;
+    margin-top: -5.0rem;
 }
 
-.grupos {
+.icone {
     display: flex;
-    align-items: center;
-    margin-bottom: 40px;
+    border: red .2rem;
 }
 
-.grupos img {
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 150px;
+.icone img{
+    width: 15.0rem;
+    height: 15.0rem;
 }
 
-.grupos h3 p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.icone h3 p {
+    display: block;
 }
-
 .explorar-termos {
     background-color: var(--amarelo-claro);
     display: flex;
     align-items: center;
-    padding-block: 40px;
-    padding-inline: 430px;
-    gap: 110px;
+    padding-block: 4.0rem;
+    padding-inline: 43.0rem;
+    gap: 11.0rem;
+    font-weight: 70.0;
+}
+
+
+.explorar-termos a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    border: none;
+    background-color: var(--verde-folha);
+    color: var(--branco);
+    border-radius: 2.0rem;
+    height: 5.5rem;
+    text-decoration: none;
+    width: 25.0rem;
     font-weight: 700;
+    font-size: 2.3rem;
+    cursor: pointer;
 }
 
 .explorar-termos img {
-    width: 368px;
-    height: 333px;
+    width: 36.8rem;
+    height: 33.3rem;
 }
 
 
@@ -221,11 +251,11 @@ main {
     border: none;
     background-color: var(--verde-folha);
     color: var(--branco);
-    border-radius: 20px;
-    height: 55px;
-    width: 250px;
+    border-radius: 2.0rem;
+    height: 5.5rem;
+    width: 25.0rem;
     font-weight: 700;
-    font-size: 23px;
+    font-size: 2.3rem;
 }
 
 .explorar-termos button:hover {
@@ -238,11 +268,247 @@ main {
 }
 
 .textos-explorar h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 4.0rem;
+    margin-bottom: 1.0rem;
 }
 
 .textos-explorar h2 {
-    font-size: 23px;
-    margin-bottom: 30px;
+    font-size: 2.3rem;
+    margin-bottom: 3.0rem;
+}
+
+.glandulas {
+    display: flex;
+    height: 46.2rem;
+    padding-top: 3.2rem;
+    margin-bottom: 10.0rem;
+}
+
+.glandulastitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8.0rem;
+    font-size: 3.0rem;
+    font-weight: 700;
+}
+
+.glandulas img {
+    width: 11.5rem;
+    height: 11.5rem;
+    margin-bottom: 1.0rem;
+}
+.glandulas p {
+    margin-top: .8rem;
+    text-align: justify;
+    font-size: 1.8rem;
+}
+.glandulas div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    background-color: var(--amarelo-banana);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 5.0rem;
+    width: 36.0rem;
+    height: 32.0rem;
+    border-radius: 3.0rem;
+    font-size: 2.0rem;
+}
+
+.setabaixo {
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5rem;
+    margin-bottom: 5.0rem;
+}
+
+.setabaixo button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.setabaixo img {
+    width: 8.0rem;
+    height: 8.0rem;
+}
+
+.bocao img{
+    width: 15.0rem;
+    height: 15.0rem;
+    margin-top: 2.5rem;
+}
+
+.bocao {
+    margin-right: 1.5rem;
+}
+
+.textobocao p {
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-right: .1rem;
+}
+
+.textobocao h3{
+    margin-bottom: 1.0rem;
+    font-size: 2.5rem;
+}
+
+.boca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.faringao img{
+    width: 15.0rem;
+    height: 15.0rem;
+    margin-top: 2.5rem;
+}
+
+.faringao {
+    margin-right: 1.5rem;
+}
+
+.textofaringe p {
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-right: 7.6rem;
+}
+
+.textofaringe h3{
+    margin-bottom: 1.0rem;
+    font-size: 2.5rem;
+}
+
+.faringe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.esofagao img{
+    width: 15.0rem;
+    height: 15.0rem;
+    margin-top: 2.5rem;
+}
+
+.esofagao {
+    margin-right: 1.5rem;
+}
+
+.textoesofago p {
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-right: 8.5rem;
+}
+
+.textoesofago h3{
+    margin-bottom: 1.0rem;
+    font-size: 2.5rem;
+}
+
+.esofago {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.estomagao img{
+    width: 15.0rem;
+    height: 15.0rem;
+    margin-top: 2.5rem;
+}
+
+.estomagao {
+    margin-right: 1.5rem;
+}
+
+.textoestomago p {
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-right: 2.7rem;
+}
+
+.textoestomago h3{
+    margin-bottom: 1.0rem;
+    font-size: 2.5rem;
+}
+
+.estomago {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.delgadao img{
+    width: 15.0rem;
+    height: 15.0rem;
+    margin-top: 2.5rem;
+}
+
+.delgadao {
+    margin-right: 1.5rem;
+}
+
+.textodelgado p {
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-right: -.8rem;
+}
+
+.textodelgado h3{
+    margin-bottom: 1.0rem;
+    font-size: 2.5rem;
+}
+
+.delgado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.grossao img{
+    width: 15.0rem;
+    height: 15.0rem;
+    margin-top: 2.5rem;
+}
+
+.grossao {
+    margin-right: 1.5rem;
+}
+
+.textogrosso p {
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-right: 3.8rem;
+}
+
+.textogrosso h3{
+    margin-bottom: 1.0rem;
+    font-size: 2.5rem;
+}
+
+.grosso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --amarelo-claro: #FDF0B2;
+    --amarelo-banana: #FFDE59;
+    --verde-folha: #35AE11;
+    --azul-ciano: #0CC0DF;
+    --vermelho-claro: #FE6565;
+    --branco: #FFF;
+    --azul-escuro: #004AAD;
+    --vermelho-bem-claro: #F4A6A6;
+    --vermelho-escuro: #ED4B3A;
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+.logo {
+    font-size: 3.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo span {
+    font-weight:100;
+}
+
+
+.container{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 3.0rem 6%;
+    top: -1.3rem;
+    left: 0;
+    background: #FE6565;
+    font-size: 1.8rem;
+}
+
+header img{
+    width: 5.0rem;
+    height: 5.0rem;
+    border-radius: 100%;
+}
+
+header i{
+    font-size: 3.0rem;
+    color: #fff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display:inline-block;
+    margin-left: 20.0rem;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.login button{
+    width: 12.0rem;
+    height: 4.0rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 3.0rem;
+    background-color: var(--branco);
+    color: #FE6565;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 1.8rem;
+}
+
+
+.icones-temas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-block: 5.0rem;
+}
+
+.icones-temas img {
+    width: 5.0rem;
+    height: 5.0rem;
+}
+
+.item-icone3{
+    opacity:50%;
+    border-radius: 5.0rem;
+    background-color: #c7493b;
+    font-size: 2.0rem;
+}
+
+.icones-temas img:hover {
+    opacity: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    align-items: center;
+  }
+  .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10.0rem;
+}
+
+.titulo h1 {
+    font-size: 4.5rem;
+    margin-left: 15.0rem;
+}
+
+.titulo img  {
+    margin-right: -5.0rem;
+
+}
+
+.barralaranja {
+    margin-left: -100.0rem;
+}
+
+.barralaranja img {
+    height: 15.0rem;
+    background: var(--azul-escuro);
+}
+
+.paragrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 2.0rem;
+    border-bottom-left-radius: 2.0rem;
+    background-color: var(--vermelho-bem-claro);
+    margin-top: 15.0rem;
+    margin-left: 65.0rem;
+    padding: 5.5rem;
+}
+
+.paragrafo p {
+    text-indent: 2.5rem;
+    font-size: 2.4rem;
+    text-align: justify;
+    font-weight: 700;
+}
+
+
+.sangue{
+    background: var(--vermelho-escuro);
+    margin-top: 200px;
+    margin-right: 600px;
+    height: -40px;
+    font-size: 30px;
+    border-end-end-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+}
+
+.sangue-h1{
+    color: var(--branco);
+    justify-content: center;
+    align-content: center;
+    margin-left: 500px;
+    font-size: 50px;
+}
+
+.paragrafo-cardiaco{
+    margin-top: 120px;
+    margin-left: 250px;
+    font-size: 32px;
+    justify-content: center;
+    text-align:justify;
+    width: 700px;
+    font-weight: 700 ;
+    margin-right: 600px;
+}
+
+.vasos-sangue{
+    background: var(--vermelho-escuro);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 43px;
+    height: 80px;
+    color: var(--branco);
+    margin-top: -12.5px;
+}
+
+.Vasos{
+    color: var(--branco);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    
+    margin-top: -500px;
+}
+
+.vasos img{
+}
