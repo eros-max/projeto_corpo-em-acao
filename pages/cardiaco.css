@@ -227,3 +227,70 @@ header ul li a{
 
 .vasos img{
 }
+
+
+.paragrafo-vasos{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+    font-weight: 700;
+}
+
+
+
+.explorar-termos {
+    background-color: var(--amarelo-claro);
+    display: flex;
+    margin-top: 10.0rem;
+    align-items: center;
+    padding-block: 4.0rem;
+    padding-inline: 43.0rem;
+    gap: 11.0rem;
+    font-weight: 700;
+}
+
+
+
+
+.explorar-termos img {
+    width: 36.8rem;
+    height: 33.3rem;
+}
+
+
+.explorar-termos a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    border: none;
+    background-color: var(--verde-folha);
+    color: var(--branco);
+    border-radius: 2.0rem;
+    height: 5.5rem;
+    text-decoration: none;
+    width: 25.0rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+    cursor: pointer;
+}
+
+.textos-explorar {
+    display: flex;
+    flex-direction: column;
+}
+
+.textos-explorar h1 {
+    font-size: 4.0rem;
+    margin-bottom: 1.0rem;
+}
+
+.textos-explorar h2 {
+    font-size: 2.3rem;
+    margin-bottom: 3.0rem;
+}
+
+

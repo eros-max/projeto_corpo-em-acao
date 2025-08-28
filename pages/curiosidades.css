@@ -40,7 +40,7 @@
 
 .digestorio-icones1, .digestorio-icones2 {
     display: flex;
-    margin-top: 6rem;
+    margin-top: 5rem;
     width: 175svh;
     gap: 2.0rem;
     border: 1px red solid;
