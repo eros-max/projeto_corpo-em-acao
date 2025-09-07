@@ -117,11 +117,10 @@ header ul li a{
     width: 120.0rem;
     border-radius: 1.0rem;
     padding: 3.0rem;
-    border: 0.2rem solid black ;
+    border: 0.2rem solid rgb(0, 0, 0) ;
 }
 
 .titulos {
-    border: red solid 0.1rem;
     display: flex;
     flex-direction: column;
 
@@ -136,6 +135,7 @@ header ul li a{
     color: var(--branco);
     font-size: 2rem;
     font-weight: 550;
+    margin-bottom: 1rem;
 }
 
 .glossario {
@@ -149,7 +149,7 @@ header ul li a{
     background-color: var(--branco);
     border-radius: .8rem;
     padding: 1.0rem;
-    border: 0.2rem solid black ;
+    border: 0.2rem solid rgb(0, 0, 0) ;
 }
 
 .item h3 {

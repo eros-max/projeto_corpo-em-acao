@@ -117,7 +117,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 3.5rem;
-    margin-block: 5.0rem;
+    margin-block: 5.0rem 5rem;
 }
 
 .icones-temas img {
@@ -144,29 +144,29 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10.0rem;
+    margin-top: 12.0rem;
 }
 
 .titulo h1 {
     font-size: 4.5rem;
-    margin-left: -60.0rem;
+    margin-left: -85.0rem;
+    margin-top: -2rem;
 }
 
 .titulo img  {
     margin-right: -5.0rem;
-
 }
 
 .barralaranja {
     display: flex;
     align-items: start;
-    margin-right: 80.0rem;
-    margin-left: -43.4rem;
+    margin-right: 100.0rem;
+    margin-left: -57.4rem;
 }
 
 .barra-laranja {
     height: 15.0rem;
-    width: 68.5rem;
+    width: 78.5rem;
 }
 
 

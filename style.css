@@ -331,9 +331,9 @@ a {
 
 .siema img {
     width: 40.0rem;
-    height: 30.0rem;
+    height: 26.0rem;
     object-fit: cover;
-    border: 0.2rem solid rgb(131, 131, 131);
+    border: 0.2rem solid rgb(0, 0, 0);
     margin-left: 7.5rem;
 }
 
@@ -346,6 +346,10 @@ a {
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.siema  img {
+    margin-left: 0.1rem;
 }
 
 .prev {

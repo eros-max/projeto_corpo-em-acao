@@ -145,7 +145,7 @@ header ul li a{
 
 .titulo img  {
     margin-right: -5.0rem;
-
+    height: 20rem;
 }
 
 .barralaranja {
@@ -179,7 +179,7 @@ header ul li a{
 
 .sangue{
     background: var(--vermelho-escuro);
-    margin-top: 200px;
+    margin-top: 140px;
     margin-right: 600px;
     height: -40px;
     font-size: 30px;

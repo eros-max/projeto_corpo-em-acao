@@ -192,12 +192,12 @@ header ul li a{
     text-indent: 2.5rem;
     font-size: 2.4rem;
     text-align: justify;
-    font-weight: 60.0;
+    font-weight: 600;
 }
 
 .sangue{
     background: var(--vermelho-claro);
-    margin-top: 200px;
+    margin-top: 140px;
     margin-right: 750px;
     height: -40px;
     border-end-end-radius: 50px;
