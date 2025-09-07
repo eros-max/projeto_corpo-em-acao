@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +19,7 @@
     --branco: #FFF;
     --azul-escuro: #004AAD;
     --vermelho-bem-claro: #F4A6A6;
+    --laranja: #FFBD59;
     font-size: 62.5%;
 }
 
@@ -96,7 +101,6 @@ header ul li a{
     font-size: 1.8rem;
 }
 
-
 .icones-temas {
     display: flex;
     align-items: center;
@@ -122,10 +126,31 @@ header ul li a{
     transition: 0.3s;
     cursor: pointer;
 }
+
+.icones-temas2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-block: 10rem 5rem;
+}
+
+.icones-temas2 img {
+    width: 5.0rem;
+    height: 5.0rem;
+}
+
+.icones-temas2 img:hover {
+    opacity: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .header {
     display: flex;
     align-items: center;
-  }
+}
+
   .titulo {
     display: flex;
     justify-content: center;
@@ -168,4 +193,428 @@ header ul li a{
     font-size: 2.4rem;
     text-align: justify;
     font-weight: 60.0;
+}
+
+.sangue{
+    background: var(--vermelho-claro);
+    margin-top: 200px;
+    margin-right: 750px;
+    height: -40px;
+    border-end-end-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+}
+
+.sangue-h1{
+    color: var(--branco);
+    justify-content: center;
+    align-content: center;
+    margin-left: 400px;
+    font-size: 50px;
+}
+
+.bocao img{
+    width: 15.0rem;
+    height: 15.0rem;
+    margin-top: 2.5rem;
+}
+
+.bocao {
+    margin-right: 1.5rem;
+}
+
+.textobocao p {
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-right: 50.5rem;
+}
+
+.textobocao h3{
+    margin-bottom: 1.0rem;
+    font-size: 2.5rem;
+}
+
+.iconpartes {
+    margin-left: 18rem;
+}
+
+.boca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 10rem 3rem;
+
+}
+
+.faringao img{
+    width: 15.0rem;
+    height: 15.0rem;
+    margin-top: 2.5rem;
+}
+
+.faringao {
+    margin-right: 1.5rem;
+}
+
+.textofaringe p {
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-right: 45.5rem;
+}
+
+.textofaringe h3{
+    margin-bottom: 1.0rem;
+    font-size: 2.5rem;
+}
+
+.faringe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.esofagao img{
+    width: 15.0rem;
+    height: 15.0rem;
+    margin-top: 2.5rem;
+}
+
+.esofagao {
+    margin-right: 1.5rem;
+}
+
+.textoesofago p {
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-right: 49.7rem;
+}
+
+.textoesofago h3{
+    margin-bottom: 1.0rem;
+    font-size: 2.5rem;
+}
+
+.esofago {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.corpo {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: -80rem;
+}
+
+.corpo img {
+    width: 65.9rem;
+    height: 93rem;
+    margin-top: 2.5rem;
+    z-index: -1;
+}
+
+.vasos-sangue{
+    background: var(--vermelho-claro);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.3rem;
+    height: 8rem;
+    color: var(--branco);
+    margin-top: -1.55rem;
+    margin-bottom: 10rem;
+}
+
+.paragrafo-vasos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    font-weight: 700;
+    width: 110rem;
+}
+
+.glandulas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46.2rem;
+    padding-top: 12.2rem;
+    margin-bottom: 10.0rem;
+    gap: 10rem;
+}
+
+.glandulas img {
+    width: 13.5rem;
+    height: 13.5rem;
+    margin-bottom: 3rem;
+}
+
+.glandulas p {
+    margin-top: 1.8rem;
+    text-align: justify;
+    font-size: 1.8rem;
+}
+
+.glandulas div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    background-color: var(--laranja);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5.0rem;
+    width: 46.0rem;
+    height: 40.0rem;
+    border-radius: 3.0rem;
+    font-size: 2.0rem;
+}
+
+.explorar-termos {
+    background-color: var(--amarelo-claro);
+    display: flex;
+    margin-top: 20.0rem;
+    align-items: center;
+    padding-block: 4.0rem;
+    padding-inline: 43.0rem;
+    gap: 11.0rem;
+    font-weight: 700;
+}
+
+.explorar-termos img {
+    width: 36.8rem;
+    height: 33.3rem;
+}
+
+
+.explorar-termos a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    border: none;
+    background-color: var(--verde-folha);
+    color: var(--branco);
+    border-radius: 2.0rem;
+    height: 5.5rem;
+    text-decoration: none;
+    width: 25.0rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+    cursor: pointer;
+}
+
+.textos-explorar {
+    display: flex;
+    flex-direction: column;
+}
+
+.textos-explorar h1 {
+    font-size: 4.0rem;
+    margin-bottom: 1.0rem;
+}
+
+.textos-explorar h2 {
+    font-size: 2.3rem;
+    margin-bottom: 3.0rem;
+}
+
+.controle-msc{
+    background: var(--vermelho-claro);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.3rem;
+    height: 8rem;
+    color: var(--branco);
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+.cabecao {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-size: 3rem;
+    margin-right: 23rem;
+    margin-bottom: -6rem;
+}
+
+.cabeca img {
+    max-width: 50rem;
+    max-height: 40rem;
+    margin-left: 22.5rem;
+}
+
+.paragrafo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--vermelho-bem-claro);
+    margin-top: -30.0rem;
+    margin-left: 50.0rem;
+    padding: 5.5rem;
+    padding-inline: 10rem 5rem;
+}
+
+.paragrafo1 p {
+    max-width: 90rem;
+    font-size: 2.8rem;
+    text-align: justify;
+    font-weight: 60.0;
+}
+
+.antebracao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: -9rem;
+    margin-top: 25rem;
+}
+
+.antebraco1 img {
+    max-width: 60rem;
+    max-height: 50rem;
+    margin-bottom: -5rem;
+}
+.antebraco2 img {
+    max-width: 60rem;
+    max-height: 50rem;
+    margin-left: 169.7svh;
+    image-orientation: flip;
+    margin-top: -37.3rem;
+}
+
+.inverter-horizontal {
+    transform: scaleX(-1);
+}
+
+.paragrafo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--laranja);
+    margin-top: -32.0rem;
+    padding: 5.5rem;
+    padding-inline: 10rem 10rem;
+}
+
+.paragrafo2 p {
+    max-width: 100rem;
+    font-size: 2.8rem;
+    text-align: justify;
+    font-weight: 60.0;
+}
+
+.abdomao {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-size: 3rem;
+    margin-left: 23rem;
+    margin-top: 10rem;
+    margin-bottom: -6rem;
+}
+
+.abdomen img {
+    display: flex;
+    max-width: 55rem;
+    max-height: 45rem;
+    margin-left: 120rem;
+    margin-bottom: -35rem;
+}
+
+.paragrafo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--vermelho-bem-claro);
+    margin-top: -30.0rem;
+    margin-right: 50.0rem;
+    padding: 5.5rem;
+    padding-inline: 10rem 5rem;
+}
+
+.paragrafo3 p {
+    max-width: 90rem;
+    font-size: 2.8rem;
+    text-align: justify;
+    font-weight: 60.0;
+}
+
+.quadripao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: -4rem;
+    margin-top: 20rem;
+}
+
+.quadricep1 img {
+    max-width: 55rem;
+    max-height: 45rem;
+    margin-bottom: -5rem;
+}
+.quadricep2 img {
+    max-width: 55rem;
+    max-height: 45rem;
+    margin-left: 165.1svh;
+    image-orientation: flip;
+    margin-top: -42.5rem;
+}
+
+.inverter-horizontal {
+    transform: scaleX(-1);
+}
+
+.paragrafo4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--laranja);
+    margin-top: -32.0rem;
+    padding: 5.5rem;
+    padding-inline: 10rem 10rem;
+    margin-bottom: 10rem;
+}
+
+.paragrafo4 p {
+    max-width: 100rem;
+    font-size: 2.8rem;
+    text-align: justify;
+    font-weight: 60.0;
+}
+
+/* Seta */
+.setabaixo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5.0rem;
+}
+
+.setabaixo button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.setabaixo img {
+    width: 8.0rem;
+    height: 8.0rem;
 }

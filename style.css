@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
 
 *{
     margin: 0;
@@ -11,9 +16,12 @@
     --amarelo-banana: #FFDE59;
     --verde-folha: #35AE11;
     --azul-ciano: #0CC0DF;
+    --azul-claro: #A0DFE9;
+    --vermelho: #FF4C4C;
     --vermelho-claro: #FE6565;
     --branco: #FFF;
     --azul-escuro: #004AAD;
+    --laranja: #FFA42B;
     font-size: 62.5%;
 }
 
@@ -178,6 +186,8 @@ main {
     height: 22.0rem;
     border-radius: 3.0rem;
     font-size: 2.0rem;
+
+
 }
 
 .item-descobrir-2 {
@@ -187,8 +197,8 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 1.0rem;
-    width: 35.0rem;
+    margin-top: 2rem;
+    width: 30.0rem;
     height: 22.0rem;
     border-radius: 3.0rem;
     font-size: 2.0rem;
@@ -205,6 +215,11 @@ main {
     height: 22.0rem;
     border-radius: 3.0rem;
     font-size: 2.0rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 
@@ -238,7 +253,7 @@ main {
 .item-icone img {
     width: 15.0rem;
     height: 15.0rem;
-    margin-bottom: 3.0rem;
+    margin-bottom: 1.0rem;
 }
 
 .voce-sabia {
@@ -459,7 +474,7 @@ main {
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 10.0rem;
+    gap: 8.0rem;
 }
 
 .fotos p {

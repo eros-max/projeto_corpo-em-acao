@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -123,6 +127,25 @@ header ul li a{
     transition: 0.3s;
     cursor: pointer;
 }
+.icones-temas2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-block: 5rem 0rem;
+}
+
+.icones-temas2 img {
+    width: 5.0rem;
+    height: 5.0rem;
+}
+
+.icones-temas2 img:hover {
+    opacity: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -357,5 +380,24 @@ header ul li a{
     font-size: 1.8rem;
     margin-top: 1.0rem;
     width: 37.0rem;
+}
+
+/* Seta */
+.setabaixo {
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5rem;
+    margin-bottom: 5.0rem;
+}
+
+.setabaixo button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.setabaixo img {
+    width: 8.0rem;
+    height: 8.0rem;
 }
 

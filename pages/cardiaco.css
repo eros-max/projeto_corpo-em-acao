@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --amarelo-claro: #FDF0B2;
     --amarelo-banana: #FFDE59;
@@ -16,6 +20,7 @@
     --azul-escuro: #004AAD;
     --vermelho-bem-claro: #F4A6A6;
     --vermelho-escuro: #ED4B3A;
+    --cinza: #F9F9F9;
     font-size: 62.5%;
 }
 
@@ -26,6 +31,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1.6rem;
+    
 }
 
 .logo {
@@ -97,7 +103,6 @@ header ul li a{
     font-size: 1.8rem;
 }
 
-
 .icones-temas {
     display: flex;
     align-items: center;
@@ -110,11 +115,10 @@ header ul li a{
     width: 5.0rem;
     height: 5.0rem;
 }
-
 .item-icone3{
-    opacity:50%;
+    opacity: 50%;
     border-radius: 5.0rem;
-    background-color: #c7493b;
+    background-color: rgba(184, 17, 17, 0.808);
     font-size: 2.0rem;
 }
 
@@ -221,12 +225,9 @@ header ul li a{
     justify-content: end;
     align-items: end;
     text-align: end;
-    
     margin-top: -500px;
 }
 
-.vasos img{
-}
 
 
 .paragrafo-vasos{
@@ -234,25 +235,64 @@ header ul li a{
     align-items: center;
     text-align: center;
     font-size: 30px;
-    margin-top: 200px;
+    margin-top: 10.5rem;
     font-weight: 700;
 }
 
+.glandulas {
+    display: flex;
+    height: 46.2rem;
+    padding-top: 3.2rem;
+    margin-left: 400px;
+}
 
+.glandulastitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8.0rem;
+    font-size: 3.0rem;
+    font-weight: 700;
+}
+
+.glandulas img {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.glandulas p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 250px;
+}
+.glandulas div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+    width: 36.0rem;
+    height: 32.0rem;
+    border-radius: 3.0rem;
+    font-size: 2.0rem;
+}
 
 .explorar-termos {
     background-color: var(--amarelo-claro);
     display: flex;
-    margin-top: 10.0rem;
     align-items: center;
     padding-block: 4.0rem;
     padding-inline: 43.0rem;
     gap: 11.0rem;
     font-weight: 700;
 }
-
-
-
 
 .explorar-termos img {
     width: 36.8rem;
@@ -293,4 +333,240 @@ header ul li a{
     margin-bottom: 3.0rem;
 }
 
+.paragrafo-vasos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-inline: 400px ;
+}
 
+.coracao {
+    background-color: var(--vermelho-escuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 43px;
+    height: 90px;
+    color: var(--branco);
+    margin-top: 180px;
+    font-size: 28px;
+}
+
+.coracaop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 480px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+
+
+.layout-grid {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.img-container {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    max-width: 1000px;
+    margin-left: 30px;
+}
+
+
+.box {
+    color: var(--branco);
+    font-size: 14px;
+}
+
+.box h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: var(--branco);
+    padding-left: 88px;
+    margin-top: -32px;
+    font-weight: 700;
+}
+
+.box p{
+    font-size: 25px;
+    padding-right: 86px;
+    padding-left: 97px;
+    padding-bottom: 32px;
+    margin-top: 22px;
+    font-weight: 700;
+}
+
+.info-azul {
+    background-color: var(--azul-escuro);
+    height: 290px; 
+    padding-top: 82px;
+    margin-right: 200px;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.info-rosa {
+    background-color: #F4A6A6;
+    margin-left: 200px;
+    padding-top: 82px;
+    height: 280px; 
+   
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.ifon-roDireito{
+    background: #F4A6A6 ;
+    height: 290px; 
+    padding-top: 82px;
+    margin-right: 200px;
+    
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.info-azDireito{
+    background: var(--azul-escuro);
+    margin-left: 200px;
+    padding-top: 82px;
+    height: 280px; 
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.item1 { grid-column: 1; grid-row: 1; }
+.item2 { grid-column: 1; grid-row: 2; }
+.item3 { grid-column: 1; grid-row: 3; }
+.item4 { grid-column: 3; grid-row: 1; }
+.item5 { grid-column: 3; grid-row: 2; }
+.item6 { grid-column: 3; grid-row: 3; }
+
+
+.Circulação-sistêmica{
+    background: var(--vermelho-escuro);
+    margin-right: 1000px;
+    height: 400px;
+    border-end-end-radius: 32px;
+    border-top-right-radius: 42px;
+    margin-top: 150px;
+}
+
+.h3-circulação{
+ background: var(--branco);
+ padding-top: 32px;
+ padding-bottom: 32px;
+ font-size: 30px;
+ padding-left:152px;
+}
+
+.h1-Circulação{
+    padding-top: 32px;
+ padding-bottom: 32px;
+ color: var(--branco);
+ margin-left: 162px;
+ font-size: 40px;
+ font-weight: 700;
+}
+
+.paragrafp-circulação{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 28px;
+    color: var(--branco);
+    font-weight: 500;
+    padding-inline: 150px;
+}
+
+
+.Circulação-pulmonar{
+    background: var(--vermelho-escuro);
+    margin-left: 1000px;
+    height: 400px;
+    border-bottom-left-radius: 43px ;
+    border-top-left-radius: 43px;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    margin-top: -400px;
+    margin-bottom: 42px;
+}
+
+.h1-pulmonar{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--branco);
+    margin-right: 162px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.h3-pulmonar{
+    background: var(--cinza);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 30px;
+    padding-right:152px;
+}
+
+.paragrafp-pulmonar{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 28px;
+    color: var(--cinza);
+    font-weight: 500;
+    padding-inline: 150px;
+}
+
+.setabaixo2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 9.5rem;
+    margin-bottom: 5.0rem;
+}
+
+.setabaixo2 button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.setabaixo2 img {
+    width: 8.0rem;
+    height: 8.0rem;
+}
+
+
+.icones-temas2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-block: 15rem 5rem;
+}
+
+.icones-temas2 img {
+    width: 5.0rem;
+    height: 5.0rem;
+}
+
+.icones-temas2 img:hover {
+    opacity: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}

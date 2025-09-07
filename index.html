@@ -8,8 +8,10 @@
     <script src="./js/main.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
-    <title>Corpo em Ação - HOME</title>
-      
+    <title>Corpo em Ação - HOME</title> 
+      <link rel="shortcut icon" 
+      type="images/x-icon"
+       href="/images/brain.png">
 </head>
 <body>
 
@@ -25,12 +27,12 @@
                         <li> <a href="/pages/digestorio.html">Sistemas</a></li>
                         <li> <a href="/pages/curiosidades.html">Curiosidades</a></li>
                         <li> <a href="/pages/Glossario.html">Glossário</a></li>
-                        <li> <a href="/pages/Jogo.html"></a></li>
+                        <li> <a href="/pages/quiz.html"></a></li>
                     </ul>
                 </nav>
 
                 <div class="login">
-                    <a href="./pages/Jogo.html"><button>Jogo</button></a>
+                    <a href="./pages/quiz.html"><button>Jogo</button></a>
                 </div>
             </div>
 
@@ -57,7 +59,9 @@
     </main>
 
     <div class="setabaixo1">
-      <button> <img src="./images/arrow_botton.svg" alt=""></button>
+      <a href="#sistemas">
+        <button> <img src="./images/arrow_botton.svg" alt=""></button>
+      </a>
     </div>
 
     <div class="oque-descobrir">
@@ -68,20 +72,26 @@
       
         <div class="icones-descobrir">
       
-          <div class="item-descobrir-1">
-            <img src="./images/Texto do seu parágrafo (1).png" alt="">
-            <p>Qual o caminho<br> da comida?</p>
-          </div>
+          <a href="./pages/digestorio.html">
+            <div class="item-descobrir-1">
+              <img src="./images/Texto do seu parágrafo (1).png" alt="">
+              <p>Qual o caminho<br> da comida?</p>
+            </div>
+          </a>
       
-          <div class="item-descobrir-2">
-            <img src="./images/Texto do seu parágrafo (2).png" alt="">
-            <p>Como que o<br> coração bate?</p>
-          </div>
+          <a href="./pages/cardiaco.html">
+            <div class="item-descobrir-2">
+              <img src="./images/Texto do seu parágrafo (2).png" alt="">
+              <p>Como que o<br> coração bate?</p>
+            </div>
+          </a>
       
-          <div class="item-descobrir-3">
-            <img src="./images/Texto do seu parágrafo (3).png" alt="">
-            <p>Como nós<br> respiramos?</p>
-          </div>
+          <a href="./pages/respiratorio.html">
+            <div class="item-descobrir-3">
+              <img src="./images/Texto do seu parágrafo (3).png" alt="">
+              <p>Como nós<br> respiramos?</p>
+            </div>
+          </a>
       
          </div>
       
@@ -91,30 +101,32 @@
         <h2>Conheça os sistemas do corpo humano</h2>
       </div>
       
-          <div class="icones-temas">
+          <div class="icones-temas"  id="sistemas">
       
       <div class="item-icone">
-        <img src="./images/Design_sem_nome_7.png" alt="">
+       
+        <a href="/pages/digestorio.html"><img src="./images/Design_sem_nome_7.png" alt=""></a>
         <p>Digestório</p>
+       
       </div>
       
       <div class="item-icone">
-        <img src="./images/Design_sem_nome_6.png" alt="">
+        <a href="./pages/respiratorio.html"><img src="./images/Design_sem_nome_6.png" alt=""></a>
         <p>Respiratório</p>
       </div>
       
       <div class="item-icone">
-        <img src="./images/Design_sem_nome_5.png" alt="">
+       <a href="./pages/cardiaco.html"> <img src="./images/Design_sem_nome_5.png" alt=""> </a>
         <p>Circulatório</p>
       </div>
       
       <div class="item-icone">
-        <img src="./images/Design_sem_nome_9.png" alt="">
+        <a href="./pages/nervoso.html"><img src="./images/Design_sem_nome_9.png" alt=""></a>
         <p>Nervoso</p>
       </div>
       
       <div class="item-icone">
-        <img src="./images/Design_sem_nome_11.webp" alt="">
+        <a href="./pages/muscular.html"><img src="./images/musculoIcon.png" alt=""></a>
         <p>Muscular</p>
       </div>
           
@@ -132,7 +144,9 @@
       </div>
 
       <div class="setabaixo2">
-        <button> <img src="./images/arrow_botton.svg" alt=""></button>
+        <a href="#grupo">
+          <button> <img src="./images/arrow_botton.svg" alt=""></button>
+        </a>
       </div>
 
       <div class="videos">
@@ -174,19 +188,24 @@
   </div>
 
 
-  <div class="nosso-grupo">
+  <div class="nosso-grupo" id="grupo">
     <h2>Conheça a equipe responsável do projeto!</h2>
   
   <div class="fotos">
   
   <div class="chaves-foto">
-    <img src="images/chaves-foto.png" alt="">
+    <img src="images/chaves-foto.jfif" alt="">
     <a href="https://link-felipelorenzo12c.vercel.app" target="_blank">Felipe Lorenzo</a>
+  </div>
+
+  <div class="jose-foto">
+    <img src="images/josefoto.png" alt="">
+    <a href="https://linktree-three-beta.vercel.app/" target="_blank">José Guilherme</a>
   </div>
   
   <div class="davi-foto">
-    <img src="./images/davi-foto.png" alt="">
-    <a href="https://link-tree-ten.vercel.app" target="_blank">Davi Moisés</a>
+    <img src="images/davi-foto.png" alt="">
+    <a href="https://link-tree-2zbydsmsy-davicratz12cs-projects.vercel.app/" target="_blank">Davi Moisés</a>
   </div>
   
   <div class="erika-foto">
@@ -206,7 +225,9 @@
   </div>
 
   <div class="setacima">
-    <button> <img src="./images/arrow_top.svg" alt=""></button>
+    <a href="#header">
+      <button> <img src="./images/arrow_top.svg" alt=""></button>
+    </a>
   </div>
 
 <!--rodapé-->

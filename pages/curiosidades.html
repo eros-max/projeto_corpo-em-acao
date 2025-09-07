@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="curiosidades.css">
     <title>Corpo em Ação - Curiosidades</title>
+    <link rel="shortcut icon" 
+      type="images/x-icon"
+       href="/images/brain.png">
 </head>
 <body>
     <header id="header">
@@ -19,12 +22,12 @@
                         <li> <a href="./digestorio.html">Sistemas</a></li>
                         <li> <a href="./curiosidades.html">Curiosidades</a></li>
                         <li> <a href="./Glossario.html">Glossário</a></li>
-                        <li> <a href="./jogo.html"></a></li>
+                        <li> <a href="./quiz.html"></a></li>
                     </ul>
                 </nav>
 
                 <div class="login">
-                    <a href="./pages/Jogo.html"><button>Jogo</button></a>
+                    <a href="./pages/quiz.html"><button>Jogo</button></a>
                 </div>
             </div>
         </div> 
@@ -33,10 +36,9 @@
 
 
     <main>
-       <div class="div-titulo-fora">
-
-        <div class="div-titulo-dentro">
-            <img class="barra-laranjinha" src="/images/barra-laranja.png" alt="Barra laranja">
+       <div class="div-titulo-fora" id="sist-dig">
+        <div class="div-titulo-dentro" >
+            <img class="barra" src="/images/barra-laranja.png" alt="Barra laranja">
             <img src="/images/digestiveIcon.png" alt="Ícone do sistema digestivo" width="175">
             <h1>Você Sabia?<br>O Sistema Digestório</h1>
         </div>
@@ -44,53 +46,340 @@
        </div>
 
        <div class="digestorio-icones">
-        
-        <div class="digestorio-icones1">
-            <div class="digestorio-icon">
-                <img src="/images/digestorioSabido.png" alt="ícone de cérebro intelectual" >
+        <div class="parte">
+            <div class="modeloP">
+                <img src="/images/digestorioSabido.png" alt="Ícone sabido">
                 <p>O trato digestivo humano tem cerca de 9 metros de comprimento, desde a boca até o ânus.</p>
             </div>
-    
-            <div class="digestorio-icon">
-                <img src="/images/digestorioSabido.png" alt="ícone de cérebro intelectual" >
-                <p>O intestino delgado é composto por três segmentos: Duodeno, Jejuno e Íleo.</p>
+
+            <div class="modeloM">
+                <img src="/images/figadoEMPAZ.png" alt="Ícone sabido">
+                <p>O fígado é o maior órgão interno do corpo humano e tem muitas funções importantes no processo digestivo, incluindo a produção da bile que ajuda a digerir gorduras.</p>
             </div>
-    
-            <div class="digestorio-icon">
-                <img src="/images/digestorioSabido.png" alt="ícone de cérebro intelectual" >
+
+            <div class="modeloN">
+                <img src="/images/digestorioDepressao.png" alt="Ícone sabido">
                 <p>O pH do estômago pode variar entre 1,5 e 3,5, o que é altamente ácido.</p>
             </div>
-    
-            <div class="digestorio-icon">
-                <img src="/images/digestorioSabido.png" alt="ícone de cérebro intelectual" >
+
+            <div class="modeloP">
+                <img src="/images/cerebroForte.png" alt="Ícone sabido">
                 <p>As paredes do intestino delgado são revestidas por músculos que se contraem para empurrar os alimentos.</p>
             </div>
         </div>
 
-        <div class="digestorio-icones2">
-
-            <div class="digestorio-icon">
-                <img src="/images/digestorioSabido.png" alt="ícone de cérebro intelectual" >
+        <div class="parte">
+            <div class="modeloG">
+                <img src="/images/digestorioDepressao.png" alt="Ícone sabido">
                 <p>Para não digerir a si mesmo, o estômago produz uma nova camada de muco a cada duas semanas, protegendo as paredes do estômago das pepsinas e do ácido clorídrico, que são as principais substâncias do suco gástrico.</p>
             </div>
-    
-            <div class="digestorio-icon">
-                <img src="/images/digestorioSabido.png" alt="ícone de cérebro intelectual" >
-                <p>As papilas gustativas da língua detectam cinco sabores: doce, salgado, azedo, amargo e umami. Estes sabores são interpretados pelo cérebro, que utiliza essas informações para ajudar a regular a ingestão de alimentos. 
-                </p>
+
+            <div class="modeloG">
+                <img src="/images/linguao.png" alt="Ícone sabido">
+                <p>As papilas gustativas da língua detectam cinco sabores: doce, salgado, azedo, amargo e umami. Estes sabores são interpretados pelo cérebro, que utiliza essas informações para ajudar a regular a ingestão de alimentos.</p>
             </div>
-    
-            <div class="digestorio-icon">
-                <img src="/images/digestorioSabido.png" alt="ícone de cérebro intelectual" >
-                <p>O fígado é o maior órgão interno do corpo humano e tem muitas funções importantes no processo digestivo, incluindo a produção da bile que ajuda a digerir gorduras.
-                </p>
+
+            <div class="modeloN">
+                <img src="/images/digestorioSabido.png" alt="Ícone sabido">
+                <p>O intestino delgado é composto por três segmentos: Duodeno, Jejuno e Íleo.</p>
             </div>
+        </div>
+
+            <a href="./digestorio.html">
+                <button class="botao">Saiba mais sobre o sistema digestório</button>
+            </a>
+
+            <div class="icones-navegar">
+                <a href="#sist-dig">
+                    <img src="/images/digestiveIcon.png" alt="ícone do sistema digestorio">
+                </a>
+                <a href="#sist-res">
+                    <img src="/images/pulmaoIcon.png" alt="ícone do sistema respiratório">
+                </a>
+                <a href="#sist-cir">
+                    <img src="/images/circulationIcon.png" alt="ícone do sistema circulatório">
+                </a>
+                <a href="#sist-ner">
+                    <img src="/images/mentalityIcon.png" alt="ícone do sistema nervoso">
+                </a>
+                <a href="#sist-mus">
+                    <img src="/images/musculoIcon.png" alt="ícone do sistema muscular">
+                </a>
+            </div>
+       </div>
+
+       <div class="div-titulo-fora" id="sist-res">
+        <div class="div-titulo-dentro" >
+            <img class="barra" src="/images/barra-azul-clara.png" alt="Barra Azul">
+            <img src="/images/pulmaoIcon.png" alt="Ícone do sistema digestivo" width="175">
+            <h1>Você Sabia?<br>O Sistema Respiratório</h1>
         </div>
        </div>
 
-      <button>Saiba mais sobre o sistema digestório</button>
+       <div class="respiratorio-icones">
+        <div class="parte">
 
+            <div class="modeloN">
+                <img src="/images/hichic.png" alt="Ícone sabido">
+                <p> O soluço é causado por espasmos involuntários do diafragma.</p>
+            </div>
+
+            <div class="modeloM">
+                <img src="/images/pulmaoPutos.png" alt="Ícone sabido">
+                <p>O pulmão esquerdo é sempre menor, para se encaixar melhor e acomodar o coração do lado esquerdo da caixa torácica, o pulmão esquerdo é ligeiramente menor que o direito.</p>
+            </div>
+            <div class="modeloP">
+                <img src="/images/diafrgma.png" alt="Ícone sabido">
+                <p>Há três aberturas no diafragma: uma para o esôfago, uma para a aorta e uma para a veia cava.</p>
+            </div>
+            <div class="modeloM">
+                <img src="/images/pulmoesFortes.png" alt="Ícone sabido">
+                <p>Mesmo o tanque de combustível mais potente não pode armazenar tantos litros quanto nossos pulmões! O órgão pode armazenar até 5.000 litros de ar.</p>
+            </div>
+        </div>
+
+        <div class="parte">
+            <div class="modeloM">
+                <img src="/images/aveoloRed.png" alt="Ícone sabido">
+                <p>Os alvéolos são as partes dos pulmões que bombeiam oxigênio e são muito flexíveis. Esticados até a capacidade máxima, seu comprimento pode chegar a 70 metros!</p>
+            </div>
+            <div class="modeloM">
+                <img src="/images/diafragmaPressao.png" alt="Ícone sabido">
+                <p>O diafragma aumenta a pressão abdominal para ajudar o corpo a se livrar de vômito, urina e fezes. Também exerce pressão sobre o esôfago para prevenir o refluxo ácido.</p>
+            </div>
+            <div class="modeloM">
+                <img src="/images/narigao.png" alt="Ícone sabido">
+                <p>O sabor dos alimentos envolve olfato e paladar. Quando o nariz está obstruído, menos ar alcança as células receptoras olfativas . Por isso quando se está resfriado os alimentos perdem o sabor.</p>
+            </div>
+        </div>
+
+        <a href="./respiratorio.html">
+            <button class="botao">Saiba mais sobre o Sistema Respiratório</button>
+        </a>
+
+        <div class="icones-navegar">
+            <a href="#sist-dig">
+                <img src="/images/digestiveIcon.png" alt="ícone do sistema digestorio">
+            </a>
+            <a href="#sist-res">
+                <img src="/images/pulmaoIcon.png" alt="ícone do sistema respiratório">
+            </a>
+            <a href="#sist-cir">
+                <img src="/images/circulationIcon.png" alt="ícone do sistema circulatório">
+            </a>
+            <a href="#sist-ner">
+                <img src="/images/mentalityIcon.png" alt="ícone do sistema nervoso">
+            </a>
+            <a href="#sist-mus">
+                <img src="/images/musculoIcon.png" alt="ícone do sistema muscular">
+            </a>
+        </div>
+       </div>
+
+       <div class="div-titulo-fora" id="sist-cir">
+        <div class="div-titulo-dentro" >
+            <img class="barra" src="/images/barra-vermelha.png" alt="Barra Vermelha">
+            <img src="/images/circulationIcon.png" alt="Ícone do sistema circulatório" width="175">
+            <h1>Você Sabia?<br>O Sistema Circulatório</h1>
+        </div>
+       </div>
+
+       <div class="circulatorio-icones">
+        <div class="parte">
+
+            <div class="modeloP">
+                <img src="/images/coracaoBOmbadao.png" alt="Ícone sabido">
+                <p>O coração bate cerca de 100.000 vezes por dia, o ritmo médio é de 72 batidas por minuto.</p>
+            </div>
+            <div class="modeloP">
+                <img src="/images/veias.png" alt="Ícone sabido">
+                <p> Existem cerca de 100 mil quilômetros de veias, artérias e capilares em nosso corpo.</p>
+            </div>
+            <div class="modeloM">
+                <img src="/images/tipoSangue.png" alt="Ícone sabido">
+                <p>O tipo sanguíneo é determinado pela presença ou ausência de certos antígenos nos glóbulos vermelhos. Existem quatro tipos sanguíneos principais: A, B, AB e O.</p>
+            </div>
+            <div class="modeloP">
+                <img src="/images/capilaresVertical.png" alt="Ícone sabido">
+                <p>Os capilares são os menores vasos sanguíneos, onde ocorrem as trocas de gases e nutrientes.</p>
+            </div>
+        </div>
+
+        <div class="parte">
+            <div class="modeloN">
+                <img src="/images/globulos.png" alt="Ícone sabido">
+                <p>O sangue é composto por plasma, glóbulos vermelhos, glóbulos brancos e plaquetas.</p>
+            </div>
+            <div class="modeloO">
+                <img src="/images/arteria.png" alt="Ícone sabido">
+                <p>As artérias têm paredes mais espessas que as veias para suportar a pressão do sangue bombeado pelo nosso coração.</p>
+            </div>
+            <div class="modeloP">
+                <img src="/images/pressao.png" alt="Ícone sabido">
+                <p>A pressão arterial é a força que o sangue exerce contra as paredes dos vasos sanguíneos.</p>
+            </div>
+            <div class="modeloN">
+                <img src="/images/veiasVermelhas.png" alt="Ícone sabido">
+                <p>As veias pulmonares são as únicas veias que transportam sangue rico em oxigênio.</p>
+            </div>
+            <div class="modeloP">
+                <img src="/images/capilaresHorizontal.png" alt="Ícone sabido">
+                <p>Os capilares têm paredes tão finas que permitem a troca de oxigênio e nutrientes com as células.</p>
+            </div>
+        </div>
+
+        <a href="./cardiaco.html">
+            <button class="botao">Saiba mais sobre o Sistema Circulatório</button>
+        </a>
+
+        <div class="icones-navegar">
+            <a href="#sist-dig">
+                <img src="/images/digestiveIcon.png" alt="ícone do sistema digestorio">
+            </a>
+            <a href="#sist-res">
+                <img src="/images/pulmaoIcon.png" alt="ícone do sistema respiratório">
+            </a>
+            <a href="#sist-cir">
+                <img src="/images/circulationIcon.png" alt="ícone do sistema circulatório">
+            </a>
+            <a href="#sist-ner">
+                <img src="/images/mentalityIcon.png" alt="ícone do sistema nervoso">
+            </a>
+            <a href="#sist-mus">
+                <img src="/images/musculoIcon.png" alt="ícone do sistema muscular">
+            </a>
+        </div>
+       </div>
+    
+       <div class="div-titulo-fora" id="sist-ner">
+        <div class="div-titulo-dentro">
+            <img class="barra" src="/images/barra-verde.png" alt="Barra Verde">
+            <img src="/images/mentalityIcon.png" alt="Ícone do sistema nervoso" width="175">
+            <h1>Você Sabia?<br>O Sistema Nervoso</h1>
+        </div>
+       </div>
        
+       <div class="nervoso-icones">
+        <div class="parte">
+
+            <div class="modeloM">
+                <img src="/images/correr.png" alt="Ícone sabido">
+                <p>O sistema nervoso pode transmitir sinais em velocidades de 100 metros (328 pés) por segundo, 8 vezes mais rápido do que a velocidade máxima de Usain Bolt.</p>
+            </div>
+            <div class="modeloM">
+                <img src="/images/cerebroLigado.png" alt="Ícone sabido">
+                <p>A nossa testa e as pontas dos dedos são as áreas mais sensíveis à dor por apresentarem uma maior densidade de fibras nervosas que reagem a um estímulo de dor.</p>
+            </div>
+            <div class="modeloO">
+                <img src="/images/cerebroCima.png" alt="Ícone sabido">
+                <p>O cérebro sozinho tem mais de 100 bilhões de neurônios. Existem outros 13,5 milhões de neurônios na medula espinhal.</p>
+            </div>
+        </div>
+
+        <div class="parte">
+            <div class="modeloP">
+                <img src="/images/neuronioAzul.png" alt="Ícone sabido">
+                <p>Se alinharmos todos os neurônios do nosso corpo, ele terá mais de 965 km de comprimento!</p>
+            </div>
+            <div class="modeloG">
+                <img src="/images/dejavu.png" alt="Ícone sabido">
+                <p>O déjà-vu é uma confusão do nosso cérebro no armazenamento de algumas ações ou momentos, causando a sensação de que já passamos por aquela situação anteriormente.</p>
+            </div>
+            <div class="modeloG">
+                <img src="/images/cerebroBnW.png" alt="Ícone sabido">
+                <p>As redes neurais artificiais (RNAs), que são modelos computacionais inspirados pelo sistema nervoso central, precisam de 40 minutos para processar o que o cérebro leva apenas um segundo.</p>
+            </div>
+            <div class="modeloO">
+                <img src="/images/cerebroColuna.png" alt="Ícone sabido">
+                <p>Os homens têm menos massa cinzenta do que as mulheres, mas têm mais massa branca e fluido cérebro espinhal.</p>
+            </div>
+        </div>
+
+        <a href="./nervoso.html">
+            <button class="botao">Saiba mais sobre o Sistema Nervoso</button>
+        </a>
+
+        <div class="icones-navegar">
+            <a href="#sist-dig">
+                <img src="/images/digestiveIcon.png" alt="ícone do sistema digestorio">
+            </a>
+            <a href="#sist-res">
+                <img src="/images/pulmaoIcon.png" alt="ícone do sistema respiratório">
+            </a>
+            <a href="#sist-cir">
+                <img src="/images/circulationIcon.png" alt="ícone do sistema circulatório">
+            </a>
+            <a href="#sist-ner">
+                <img src="/images/mentalityIcon.png" alt="ícone do sistema nervoso">
+            </a>
+            <a href="#sist-mus">
+                <img src="/images/musculoIcon.png" alt="ícone do sistema muscular">
+            </a>
+        </div>
+    </div>
+
+    <div class="div-titulo-fora" id="sist-mus">
+        <div class="div-titulo-dentro">
+            <img class="barra" src="/images/barra-muscular.png" alt="Barra Vermelho Clara">
+            <img src="/images/musculoIcon.png" alt="Ícone do sistema muscular" width="175">
+            <h1>Você Sabia?<br>O Sistema Muscular</h1>
+        </div>
+       </div>
+
+       <div class="muscular-icones">
+        <div class="parte">
+            <div class="modeloM">
+                <img src="/images/musculoLiso.png" alt="Ícone sabido">
+                <p>Os músculos lisos são músculos involuntários do intestino, dos vasos sanguíneos e de outros lugares que funcionam sem que você pense conscientemente em fazê-los se mover.</p>
+            </div>
+            <div class="modeloM">
+                <img src="/images/equilibrio.png" alt="Ícone sabido">
+                <p>Além de ser responsável pelo movimento, o sistema muscular também é o que mantém seu corpo em qualquer posição contra a força da gravidade.</p>
+            </div>
+            <div class="modeloM">
+                <img src="/images/termometro.png" alt="Ícone sabido">
+                <p>O movimento muscular conta para quase 85% do calor produzido dentro do corpo. Quando você está com frio, seus músculos se contraem involuntariamente.</p>
+            </div>
+        </div>
+
+        <div class="parte">
+            <div class="modeloM">
+                <img src="/images/cerebroAura.png" alt="Ícone sabido">
+                <p>O córtex motor do lado direito do cérebro controla os músculos do lado esquerdo do corpo, enquanto o córtex motor do lado esquerdo controla os músculos do lado direito.</p>
+            </div>
+            <div class="modeloM">
+                <img src="/images/basketballPerson.png" alt="Ícone sabido">
+                <p>As mensagens do cérebro se tornam mais complexas quando há mais músculos envolvidos em uma atividade, como fazer um arremesso no basquete.</p>
+            </div>
+            <div class="modeloG">
+                <img src="/images/olhoMuscular.png" alt="Ícone sabido">
+                <p>Os músculos que controlam os olhos estão constantemente se ajustando enquanto você lê, assiste TV ou olha ao redor. Em uma hora de leitura, seus olhos podem fazer até 10.000 movimentos.</p>
+            </div>
+        </div>
+
+        <a href="./muscular.html">
+            <button class="botao">Saiba mais sobre o Sistema Muscular</button>
+        </a>
+    
+        <div class="icones-navegar2">
+            <a href="#sist-dig">
+                <img src="/images/digestiveIcon.png" alt="ícone do sistema digestorio">
+            </a>
+            <a href="#sist-res">
+                <img src="/images/pulmaoIcon.png" alt="ícone do sistema respiratório">
+            </a>
+            <a href="#sist-cir">
+                <img src="/images/circulationIcon.png" alt="ícone do sistema circulatório">
+            </a>
+            <a href="#sist-ner">
+                <img src="/images/mentalityIcon.png" alt="ícone do sistema nervoso">
+            </a>
+            <a href="#sist-mus">
+                <img src="/images/musculoIcon.png" alt="ícone do sistema muscular">
+            </a>
+        </div>
+    </div>
+
 
     </main>
 </body>
