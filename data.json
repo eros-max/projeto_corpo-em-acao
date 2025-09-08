@@ -1,0 +1,534 @@
+{
+    "quizzes": [
+        {
+            "title": "sistema-digestorio",
+            "icon": "../assets/images/icon-sistema-digestorio.png",
+            "questions": [
+                {
+                    "question": "Qual é a principal função do estômago?",
+                    "options": [
+                        "Absorver nutrientes",
+                        "Produzir insulina",
+                        "Iniciar a digestão",
+                        "Absorver água"
+                    ],
+                    "answer": "Iniciar a digestão"
+                },
+                {
+                    "question": "Onde ocorre a maior parte da absorção de nutrientes?",
+                    "options": [
+                        "Estômago",
+                        "Intestino grosso",
+                        "Intestino delgado",
+                        "Fígado"
+                    ],
+                    "answer": "Intestino delgado"
+                },
+                {
+                    "question": "Qual órgão produz a bile?",
+                    "options": [
+                        "Pâncreas",
+                        "Estômago",
+                        "Fígado",
+                        "Vesícula biliar"
+                    ],
+                    "answer": "Fígado"
+                },
+                {
+                    "question": "A bile atua principalmente na digestão de:",
+                    "options": [
+                        "Açúcares",
+                        "Proteínas",
+                        "Lipídios",
+                        "Vitaminas"
+                    ],
+                    "answer": "Lipídios"
+                },
+                {
+                    "question": "O suco pancreático auxilia na digestão de:",
+                    "options": [
+                        "Apenas lipídios",
+                        "Apenas proteínas",
+                        "Apenas carboidratos",
+                        "Carboidratos, proteínas e lipídios"
+                    ],
+                    "answer": "Carboidratos, proteínas e lipídios"
+                },
+                {
+                    "question": "Qual estrutura liga a boca ao estômago?",
+                    "options": [
+                        "Traqueia",
+                        "Esôfago",
+                        "Duodeno",
+                        "Laringe"
+                    ],
+                    "answer": "Esôfago"
+                },
+                {
+                    "question": "O movimento que empurra o alimento pelo tubo digestivo é chamado:",
+                    "options": [
+                        "Deglutição",
+                        "Peristaltismo",
+                        "Filtração",
+                        "Digestão química"
+                    ],
+                    "answer": "Peristaltismo"
+                },
+                {
+                    "question": "Onde ocorre a maior absorção de água?",
+                    "options": [
+                        "Estômago",
+                        "Intestino delgado",
+                        "Intestino grosso",
+                        "Fígado"
+                    ],
+                    "answer": "Intestino grosso"
+                },
+                {
+                    "question": "Qual enzima está presente na saliva?",
+                    "options": [
+                        "Lipase",
+                        "Amilase",
+                        "Pepsina",
+                        "Maltase"
+                    ],
+                    "answer": "Amilase"
+                },
+                {
+                    "question": "A função principal do intestino grosso é:",
+                    "options": [
+                        "Produzir bile",
+                        "Absorver nutrientes",
+                        "Absorver água",
+                        "Produzir enzimas"
+                    ],
+                    "answer": "Absorver água"
+                }
+            ]
+        },
+        {
+            "title": "sistema-respiratorio",
+            "icon": "../assets/images/icon-sistema-respiratorio.png",
+            "questions": [
+                {
+                    "question": "O sistema respiratório capta ( ) e elimina ( ).",
+                    "options": [
+                        "oxigênio / gás carbônico",
+                        "dióxido de carbono / oxigênio",
+                        "nutrientes / dióxido de carbono",
+                        "água / oxigênio"
+                    ],
+                    "answer": "oxigênio / gás carbônico"
+                },
+                {
+                    "question": "Onde ocorrem as trocas gasosas?",
+                    "options": [
+                        "Cavidades nasais",
+                        "Faringe",
+                        "Alvéolos",
+                        "Brônquios"
+                    ],
+                    "answer": "Alvéolos"
+                },
+                {
+                    "question": "O ar percorre pela seguinte ordem: cavidades nasais > faringe > laringe > traqueia > ( ).",
+                    "options": [
+                        "estômago",
+                        "brônquios",
+                        "intestino delgado",
+                        "bexiga"
+                    ],
+                    "answer": "brônquios"
+                },
+                {
+                    "question": "Qual estrutura protege para que o alimento não entre na traqueia?",
+                    "options": [
+                        "Laringe",
+                        "Epiglote",
+                        "Alvéolo",
+                        "Faringe"
+                    ],
+                    "answer": "Epiglote"
+                },
+                {
+                    "question": "Qual é o principal órgão do sistema respiratório?",
+                    "options": [
+                        "Estômago",
+                        "Coração",
+                        "Pulmão",
+                        "Fígado"
+                    ],
+                    "answer": "Pulmão"
+                },
+                {
+                    "question": "O diafragma participa de qual movimento?",
+                    "options": [
+                        "Caminhar",
+                        "Respirar",
+                        "Comer",
+                        "Dormir"
+                    ],
+                    "answer": "Respirar"
+                },
+                {
+                    "question": "O gás eliminado na expiração é:",
+                    "options": [
+                        "Oxigênio",
+                        "Dióxido de carbono",
+                        "Nitrogênio",
+                        "Hélio"
+                    ],
+                    "answer": "Dióxido de carbono"
+                },
+                {
+                    "question": "Onde o ar é filtrado, aquecido e umidificado?",
+                    "options": [
+                        "Faringe",
+                        "Cavidade nasal",
+                        "Laringe",
+                        "Alvéolos"
+                    ],
+                    "answer": "Cavidade nasal"
+                },
+                {
+                    "question": "O que ocorre na inspiração?",
+                    "options": [
+                        "Entrada de oxigênio",
+                        "Saída de dióxido de carbono",
+                        "Contração do coração",
+                        "Expansão dos brônquios"
+                    ],
+                    "answer": "Entrada de oxigênio"
+                },
+                {
+                    "question": "As vias respiratórias incluem: cavidades nasais, faringe, laringe, traqueia, ( )",
+                    "options": [
+                        "Alvéolos",
+                        "Rins",
+                        "Intestinos",
+                        "Brônquios e bronquíolos"
+                    ],
+                    "answer": "Brônquios e bronquíolos"
+                }
+            ]
+        },
+        {
+            "title": "sistema-circulatorio",
+            "icon": "../assets/images/icon-sistema-circulatorio.png",
+            "questions": [
+                {
+                    "question": "O sistema circulatório é também conhecido como ( )",
+                    "options": [
+                        "Sistema digestório",
+                        "Sistema cardiovascular",
+                        "Sistema respiratório",
+                        "Sistema nervoso"
+                    ],
+                    "answer": "Sistema cardiovascular"
+                },
+                {
+                    "question": "Esse sistema é formado por três componentes principais. Quais são?",
+                    "options": [
+                        "Estômago, pulmões, rins",
+                        "Coração, vasos sanguíneos, sangue",
+                        "Cérebro, neurônios, glia",
+                        "Músculo, osso, tendão"
+                    ],
+                    "answer": "Coração, vasos sanguíneos, sangue"
+                },
+                {
+                    "question": "As artérias levam o sangue ( )",
+                    "options": [
+                        "Para fora do coração",
+                        "Para dentro do coração",
+                        "Apenas nos pulmões",
+                        "Apenas no coração"
+                    ],
+                    "answer": "Para fora do coração"
+                },
+                {
+                    "question": "As veias transportam o sangue ( ).",
+                    "options": [
+                        "Para fora do coração",
+                        "Para dentro do coração",
+                        "Apenas no cérebro",
+                        "Apenas nos músculos"
+                    ],
+                    "answer": "Para dentro do coração"
+                },
+                  {
+                    "question": "Os capilares são vasos muito finos onde ocorrem ( )",
+                    "options": [
+                        "Produção de enzimas",
+                        "Trocas de substâncias com os tecidos",
+                        "Digestão de alimentos",
+                        "Controle da respiração"
+                    ],
+                    "answer": "Trocas de substâncias com os tecidos"
+                },
+                {
+                    "question": "O coração está localizado ( ).",
+                    "options": [
+                      "Na cabeça",
+                      "Entre os pulmões",
+                      "No estômago",
+                      "Na bexiga"
+                    ],
+                    "answer": "Entre os pulmões"
+                },
+                {
+                    "question": "A função do coração é ( ).",
+                    "options": [
+                        "Filtrar sangue",
+                        "Bombear sangue",
+                        "Produzir oxigênio",
+                        "Detectar estímulos"
+                    ],
+                    "answer": "Bombear sangue"
+                },
+                {
+                    "question": "O sistema circulatório ajuda no transporte de nutrientes e também de ( ).",
+                    "options": [
+                        "Hormônios e anticorpos",
+                        "Oxigênio apenas",
+                        "Células musculares",
+                        "Ar"
+                    ],
+                    "answer": "HOrmônios e anticorpos"
+                },
+                {
+                    "question": "Qual circulação leva sangue aos pulmões para oxigenação?",
+                    "options": [
+                        "Pulmonar ou pequena circulação",
+                        "Sistêmica ou grande circulação",
+                        "Linfática",
+                        "Nervosa"
+                    ],
+                    "answer": "Pulmonar ou pequena circulação"
+                },
+                {
+                    "question": "A circulação sistêmica leva sangue ( ).",
+                    "options": [
+                        "Apenas ao coração",
+                        "Entre coração e pulmões",
+                        "Do corpo ao coração",
+                        "Do coração para o resto do corpo"
+                    ],
+                    "answer": "Do coração para o resto do corpo"
+                }
+            ]
+        },
+        {
+            "title": "sistema-nervoso",
+            "icon": "../assets/images/icon-sistema-nervoso.png",
+            "questions": [
+                {
+                    "question": "O sistema nervoso é responsável por ( ).",
+                    "options": [
+                        "Digestão",
+                        "Comunicação entre as partes do corpo",
+                        "Transportar oxigênio",
+                        "Produzir hormônios;"
+                    ],
+                    "answer": "Comunicação entre as partes do corpo"
+                },
+                {
+                    "question": "Ele se divide em ( ).",
+                    "options": [
+                        "Sistema central e periférico",
+                        "Sistema digestório e respiratório",
+                        "Sistema circulatório e excretor",
+                        "Central e muscular"
+                    ],
+                    "answer": "Sistema central e periférico"
+                },
+                {
+                    "question": "O neurônio é a célula que ( )",
+                    "options": [
+                        "Tigere alimentos",
+                        "Transporta oxigênio",
+                        "Transmite impulsos nervosos",
+                        "Contrai músculos"
+                    ],
+                    "answer": "Transmite impulsos nervosos"
+                },
+                {
+                    "question": "O encéfalo e a medula espinhal compõem o ( )",
+                    "options": [
+                        "Sistema nervoso periférico",
+                        "Sistema nervoso autônomo",
+                        "Sistema digestório",
+                        "Sistema nervoso central"
+                    ],
+                    "answer": "Sistema nervoso central"
+                },
+                  {
+                    "question": "O sistema nervoso periférico é formado por ( )",
+                    "options": [
+                        "Vasos sanguíneos",
+                        "Nervos cranianos e espinhais",
+                        "Músculos lisos",
+                        "Pulmões"
+                    ],
+                    "answer": "Nervos cranianos e espinhais"
+                },
+                {
+                    "question": "O sistema nervoso permite que o corpo ( ).",
+                    "options": [
+                      "Respire",
+                      "Reaja aos estímulos",
+                      "Pigira alimentos",
+                      "Produza glóbulos vermelhos"
+                    ],
+                    "answer": "Reaja aos estímulos"
+                },
+                {
+                    "question": "Os reflexos são controlados por ( ).",
+                    "options": [
+                        "Cérebro",
+                        "Medula espinhal",
+                        "Coração",
+                        "Fígado"
+                    ],
+                    "answer": "Medula espinhal"
+                },
+                {
+                    "question": "As mensagens do corpo são recebidas e interpretadas no ( ).",
+                    "options": [
+                        "Sistema nervoso central",
+                        "Sistema circulatório",
+                        "Sistema digestório",
+                        "Sistema linfático"
+                    ],
+                    "answer": "Sistema nervoso central"
+                },
+                {
+                    "question": "O sistema nervoso envia comandos aos músculos por meio dos ( ).",
+                    "options": [
+                        "Ossos",
+                        "Neurônios motores",
+                        "Alvéolos",
+                        "Vasos sanguíneos"
+                    ],
+                    "answer": "Neurônios motores"
+                },
+                {
+                    "question": "A parte do cérebro responsável pelo equilíbrio e coordenação é o ( ).",
+                    "options": [
+                        "Tronco encefálico",
+                        "Cerebelo",
+                        "Hipotálamo",
+                        "Medula"
+                    ],
+                    "answer": "Cerebelo"
+                }
+            ]
+        },
+        {
+            "title": "sistema-muscular",
+            "icon": "../assets/images/icon-sistema-muscular.png",
+            "questions": [
+                {
+                    "question": "A principal função do sistema muscular é ( ).",
+                    "options": [
+                        "Digerir alimentos",
+                        "Produzir sangue",
+                        "Gerar movimentos",
+                        "Filtrar toxinas"
+                    ],
+                    "answer": "Gerar movimentos"
+                },
+                {
+                    "question": "O músculo esquelético é controlado ( ).",
+                    "options": [
+                        "Pelo sistema digestório",
+                        "Involuntariamente",
+                        "Voluntariamente",
+                        "Pela medula"
+                    ],
+                    "answer": "Voluntariamente"
+                },
+                {
+                    "question": "O coração é formado por músculo ( ):",
+                    "options": [
+                        "Liso",
+                        "Estriado esquelético",
+                        "Cardiáco",
+                        "Voluntário"
+                    ],
+                    "answer": "Cardiáco"
+                },
+                {
+                    "question": "Os músculos lisos estão nos ( ).",
+                    "options": [
+                        "Ossos",
+                        "Órgãos internos",
+                        "Tendões",
+                        "Cérebro"
+                    ],
+                    "answer": "Órgãos internos"
+                },
+                {
+                    "question": "As proteínas que permitem a contração muscular são ( ).",
+                    "options": [
+                        "Hemoglobina",
+                        "Colágeno",
+                        "Actina e Miosina",
+                        "Elastina"
+                    ],
+                    "answer": "Actina e Miosina"
+                },
+                {
+                    "question": "O diafragma é um músculo que ajuda na ( ).",
+                    "options": [
+                        "Digestão",
+                        "Locomoção",
+                        "Respiração",
+                        "Circulação"
+                    ],
+                    "answer": "Respiração"
+                },
+                {
+                    "question": "O tendão liga ( ).",
+                    "options": [
+                        "Osso ao Músculo",
+                        "Músculo a Músculo",
+                        "Osso a Osso",
+                        "Órgão a Músculo"
+                    ],
+                    "answer": "Quando sentimos fadiga muscular, o que se acumula no músculo é ( )."
+                },
+                {
+                    "question": "Qual diretriz garante que o conteúdo seja acessível tanto pelo teclado quanto pelo mouse?",
+                    "options": [
+                        "Oxigênio",
+                        "Ácido Lático",
+                        "Proteína",
+                        "Água"
+                    ],
+                    "answer": "Ácido Lático"
+                },
+                {
+                    "question": "O sistema muscular ajuda na ( ).",
+                    "options": [
+                        "Digestão",
+                        "Circulação",
+                        "Sustentação e Movimentação",
+                        "Produção Hormonal"
+                    ],
+                    "answer": "Sustentação e Movimentação"
+                },
+                {
+                    "question": "Aproximadamente quantos músculos o corpo humano possui?",
+                    "options": [
+                        "100",
+                        "2000",
+                        "469",
+                        "600"
+                    ],
+                    "answer": "600"
+                }
+            ]
+        }
+    ]
+}

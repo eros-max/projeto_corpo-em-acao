@@ -1,0 +1,205 @@
+.sair {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: 14rem;
+    margin-bottom: -14rem;
+    margin-right: 1rem;
+}
+
+.sair button {
+    border: none;
+    background-color: #fff6ee;
+    color: grey;
+    font-size: 1.4rem;
+}
+
+.sair button:hover {
+    cursor: pointer;
+}
+
+
+/*Íconezinho de cima*/
+.assunto_icone {
+    background: #daddd8;
+    width: 4rem;
+    height: 4rem;
+    margin-left: -5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.assunto_icone.sistema-digestorio {
+    background-color: #ffd7ba;
+}
+.assunto_icone.sistema-respiratorio {
+    background-color: #b3dee2;
+}
+.assunto_icone.sistema-circulatorio {
+    background-color: #ff928b;
+}
+.assunto_icone.sistema-nervoso {
+    background-color: #b0c4b1;
+}
+.assunto_icone.sistema-muscular {
+    background-color: #edafb8;
+}
+
+header {
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.assunto_icone img {
+    width: 3.5rem;
+}
+
+.pergunta {
+    min-width: 40rem;
+    min-height: 8rem;
+}
+
+.pergunta p {
+    margin-top: -1rem;
+    font-size: 1rem;
+}
+
+.pergunta h2 {
+    margin-top: -1rem;
+    font-size: 2rem;
+}
+
+/*Barra de progresso*/
+
+.barra_progresso {
+    background: #c3c5c7;
+    height: .5rem;
+    padding: .4rem;
+    border-radius: 99rem;
+    max-width: 150svh;
+    margin-block: -.5rem 2rem;
+
+    div {
+        height: 100%;
+        background: #101e6d;
+        border-radius: 99rem;
+    }
+}
+
+.alternativas form {
+    margin: auto;
+    font-size: 1.4rem;
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1.2rem;
+}
+
+.alternativas label {
+    background-color: rgba(104, 104, 104, 0.212);
+    border-radius: .6rem;
+    padding: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #313131;
+}
+
+.alternativas label:hover {
+    background-color: #83838377;
+    color: #000000;
+    transition-duration: .5s;
+    
+}
+
+.alternativas label:has(input:checked) {
+   border: solid .15rem #838383;
+    color: #000000;
+}
+
+.alternativas div {
+    display: flex;
+    align-items: center;
+}
+
+.alternativas div span {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    font-weight: 700;
+    background-color: rgba(85, 85, 85, 0.212);
+    margin-right: .5rem;
+    border-radius: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.4rem;
+    color: #0e0e0e;
+}
+
+
+.alternativas input {
+    display: none;
+}
+
+.alternativas button {
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    border-radius: 0.4rem;
+    background-color: rgba(48, 48, 48, 0.322);
+    border: none;
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 65rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.alternativas button:hover {
+    background-color:  #464646;
+    color: white;
+    transition-duration: .5s;
+}
+
+  .alternativas label#correta {
+    outline: .1rem solid green;
+    & span {
+        background: green;
+        color: white;
+    }
+}
+
+.alternativas label#errada {
+    outline: .1rem solid red;
+    
+    & span {
+        background: red;
+        color: white;
+    }
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    background: #fff6ee;
+}
+
+main {
+    min-width: 65rem;
+    max-width: 65rem;
+    width: 100%;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(253, 162, 111, 0.2);
+    margin-top: 1rem;
+}
+
+
+.assunto {
+    display: flex;
+    gap: 2rem;
+}

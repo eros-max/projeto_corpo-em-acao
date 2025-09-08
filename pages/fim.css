@@ -1,0 +1,160 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body, html {
+    margin: auto;
+    margin-top: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff6ee;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    max-width: 2000px;
+    width: 2000px;
+    padding-inline: 80px;
+    padding-block: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(253, 162, 111, 0.2);
+  }
+  
+  .assunto {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #ff6f7e;
+  }
+  
+  .assunto_icone img {
+    width: 52px;
+    height: 52px;
+  }
+  
+  .assunto_icone2 {
+    margin-top: .5rem;
+    margin-right: -1rem;
+  }
+  .assunto_icone2 img {
+    width: 42px;
+    height: 42px;
+  }
+  
+  header h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #0B0B23;
+    margin-top: -.5rem;
+  }
+  
+  main {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  main h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #0B0B23;
+    margin-top: -1rem;
+  }
+  
+  main strong {
+    font-weight: 700;
+    color: #0B0B23;
+  }
+  
+  .pontuacao {
+   /* background-color: #fff8f0;*/
+   border: .15rem solid  #f1d7c9;;
+    border-radius: 8px;
+    padding-block: 0.5rem 1rem;
+    padding-inline: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-inline: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pontuacao h1 {
+    font-size: 1.4rem;
+    margin-left: 8px;
+    color: #0B0B23;
+  }
+  
+  /* Pontuação em destaque */
+  .pontuacao strong {
+    font-size: 3rem;
+    color: #f56565; /* vermelho claro */
+    margin-bottom: .5rem;
+  }
+  
+  .pontuacao p {
+    font-size: 1.4rem;
+    color: #555;
+
+    
+  }
+  
+  /* Estilo do botão */
+  button {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: #f56565;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #33375e;
+  }
+
+  /* Fundos dos temas */
+
+.assunto_icone.sistema-digestorio {
+    background-color: #ffd7ba;
+}
+.assunto_icone.sistema-respiratorio {
+    background-color: #b3dee2;
+}
+.assunto_icone.sistema-circulatorio {
+    background-color: #ff928b;
+}
+.assunto_icone.sistema-nervoso {
+    background-color: #b0c4b1;
+}
+.assunto_icone.sistema-muscular {
+    background-color: #edafb8;
+}
+
+.assunto_icone {
+  background: #daddd8;
+  width: 4rem;
+  height: 4rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
