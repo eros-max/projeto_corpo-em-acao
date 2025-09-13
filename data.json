@@ -133,12 +133,12 @@
                 {
                     "question": "O ar percorre pela seguinte ordem: cavidades nasais > faringe > laringe > traqueia > ( ).",
                     "options": [
-                        "estômago",
-                        "brônquios",
-                        "intestino delgado",
-                        "bexiga"
+                        "Estômago",
+                        "Brônquios",
+                        "Intestino delgado",
+                        "Bexiga"
                     ],
-                    "answer": "brônquios"
+                    "answer": "Brônquios"
                 },
                 {
                     "question": "Qual estrutura protege para que o alimento não entre na traqueia?",
@@ -294,7 +294,7 @@
                         "Células musculares",
                         "Ar"
                     ],
-                    "answer": "HOrmônios e anticorpos"
+                    "answer": "Hormônios e anticorpos"
                 },
                 {
                     "question": "Qual circulação leva sangue aos pulmões para oxigenação?",
@@ -328,7 +328,7 @@
                         "Digestão",
                         "Comunicação entre as partes do corpo",
                         "Transportar oxigênio",
-                        "Produzir hormônios;"
+                        "Produzir hormônios"
                     ],
                     "answer": "Comunicação entre as partes do corpo"
                 },
@@ -345,7 +345,7 @@
                 {
                     "question": "O neurônio é a célula que ( )",
                     "options": [
-                        "Tigere alimentos",
+                        "Digere alimentos",
                         "Transporta oxigênio",
                         "Transmite impulsos nervosos",
                         "Contrai músculos"
@@ -377,7 +377,7 @@
                     "options": [
                       "Respire",
                       "Reaja aos estímulos",
-                      "Pigira alimentos",
+                      "Digira alimentos",
                       "Produza glóbulos vermelhos"
                     ],
                     "answer": "Reaja aos estímulos"
