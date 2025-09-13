@@ -1,9 +1,22 @@
 @import url('./header.css');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
     scroll-behavior: smooth;
+}
+
+* {
+    p {
+    font-style: italic;
+    font-family: 'Open Sans';
+    }
+}
+
+.curiosidades-li {
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 
 .icones-navegar {
@@ -25,13 +38,6 @@ html {
     }
 }
 
-* {
-    p {
-    font-style: italic;
-    font-family: 'Open Sans';
-    }
-}
-
 /* Você sabia? - Sistema digestório */
 
 /* Barra Título VC-SD*/
@@ -44,16 +50,16 @@ html {
     h1 {
         font-weight: 625;
         font-family: 'Montserrat' , sans-serif;
-        margin-left: 12.0rem;
+        margin-left: 12rem;
     }
 
     img {
-        margin: -5.0rem;
+        margin: -5rem;
     }
 
     .barra {
-        height: 12.0rem;
-        width: 60.0rem;
+        height: 12rem;
+        width: 60rem;
     }
     
 }
