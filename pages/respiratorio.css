@@ -17,7 +17,7 @@ html {
     --amarelo-banana: #FFDE59;
     --verde-folha: #35AE11;
     --azul-ciano: #0CC0DF;
-    --vermelho-claro: #FE6565;
+    --vermelho: #FF4C4C;
     --branco: #FFF;
     --azul-bem-claro: #A0DFE9;
     --azul-escuro: #004AAD;
@@ -60,7 +60,7 @@ header{
     padding: 3.0rem 6%;
     top: -1.3rem;
     left: 0;
-    background: #FE6565;
+    background: #FF4C4C;
     font-size: 1.8rem;
 }
 
@@ -82,7 +82,11 @@ header ul{
 header ul li{
     font-family: 'Montserrat', sans-serif;
     display:inline-block;
-    margin-left: 20.0rem;
+    margin-left: 10.0rem;
+}
+
+header nav {
+    padding-left: 40rem;
 }
 
 header ul li a{
@@ -92,7 +96,7 @@ header ul li a{
 
 .sistemas-li {
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .login button{
@@ -279,7 +283,7 @@ header ul li a{
     background-color: var(--amarelo-banana);
     margin-top: 10.0rem;
     padding-inline: 35.0rem;
-    margin-inline: -33.2rem;
+    margin-inline: -35.2rem;
 }
 
 .voce-sabia img {
@@ -344,6 +348,8 @@ header ul li a{
     margin-block: 11.0rem 6.0rem;
     font-size: 3.0rem;
     font-weight: 700;
+    margin-top: 15.0rem;
+    margin-bottom: 8.0rem;
 }
 
 .glandulas img {

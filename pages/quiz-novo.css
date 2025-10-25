@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: Arial, sans-serif;
+    background-color: #fff;
+   margin: 0;
+   padding: 0;
+}
+
+:root {
+    --amarelo-claro: #FDF0B2;
+    --amarelo-banana: #FFDE59;
+    --verde-folha: #35AE11;
+    --azul-ciano: #0CC0DF;
+    --vermelho: #FF4C4C;
+    --branco: #FFF;
+    --azul-escuro: #004AAD;
+    --vermelho-bem-claro: #F4A6A6;
+    --laranja: #FFBD59;
+    --cinza:#EAEAEA;
+    font-size: 62.5%;
+}
+
+.assunto_icone {
+    display: flex;
+    align-items: center;
+    
+    padding: 3rem;
+    width: 100vw;
+
+    img {
+    width: 6vw;
+    margin-inline: 15rem 3rem;
+   }
+}
+
+.assunto_icone.sistema-digestorio {
+    background: #FFBD59;
+}
+.assunto_icone.sistema-respiratorio {
+    background: #004AAD;
+}
+.assunto_icone.sistema-circulatorio {
+    background: #EE3521;
+}
+.assunto_icone.sistema-nervoso {
+    background: #35AE11;
+}
+.assunto_icone.sistema-muscular {
+    background: #E65051;
+}
+
+.assunto h1{
+   font-family: Poppins, sans-serif;
+   color: var(--branco);
+   font-size: 4.2rem;
+   font-weight: 800;
+}
+
+.sair {
+   display: flex;
+   align-items: end;
+   justify-content: end;
+   margin-top: -11rem;
+   margin-right: 10rem;
+}
+
+.sair a {
+    text-decoration: none;
+    color: white;
+    font-size: 6rem;
+    margin-top: -1.5rem;
+    margin-right: 2rem;
+}
+
+.sair button:hover {
+   cursor: pointer;
+}
+
+.sair img{
+    width: 3rem;
+}
+
+.barra-cinza{
+    width: 64vw;
+   height: 1.5vh;
+   background-color: rgb(214, 212, 212);
+   border-radius: 1.5rem;
+   margin-top: 16rem;
+   margin-left: 34.2rem;
+
+   div {
+        width: 100%;
+        height: 100%;
+        background-color: var(--laranja);
+        border-radius: 1.5rem;
+   }
+}
+
+.barra-cinza div.barra-sistema-digestorio {
+    background-color: FFBD59;
+}
+.barra-cinza div.barra-sistema-respiratorio {
+    background-color: #004AAD;
+}
+.barra-cinza div.barra-sistema-circulatorio {
+    background-color: #EE3521;
+}
+.barra-cinza div.barra-sistema-nervoso {
+    background-color: #35AE11;
+}
+.barra-cinza div.barra-sistema-muscular {
+    background-color: #E65051;
+}
+
+.pergunta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 10rem;
+
+   margin-left: 34rem;
+   margin-right: 34rem;
+     border-radius: 32px;
+}
+
+.pergunta p{
+    font-family: Open Sans, sans-serif;
+   font-size: 2.8rem;
+   padding-left: 4rem;
+   padding-bottom: 8rem;
+   padding-right: 4rem;
+   padding-top: 8rem;
+   font-weight: 600;
+    width: 60vw;
+    text-align: center;
+}
+
+.pergunta.borda-sistema-digestorio {
+    border:  solid #FFBD59 8px;
+}
+.pergunta.borda-sistema-respiratorio {
+    border:  solid #004AAD 8px;
+}
+.pergunta.borda-sistema-circulatorio {
+    border:  solid #EE3521 8px;
+}
+.pergunta.borda-sistema-nervoso {
+    border:  solid #35AE11 8px;
+}
+.pergunta.borda-sistema-muscular {
+    border:  solid #E65051 8px;
+}
+
+h3{
+    font-family: Open Sans, sans-serif;
+   opacity: 50%;
+   justify-content: end;
+   align-items: end;
+   text-align: end;
+   margin-top: -6rem;
+   margin-right: 36rem;
+   font-size: 2rem;
+   font-weight: normal;
+}
+
+.alternativas form {
+    margin-left: 32rem;
+    margin-right: 32rem;
+    font-size: 2rem;
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 3rem 4rem;
+    margin-top: 5rem;
+}
+
+.alternativas label {
+    background-color: #EAEAEA;
+    border-radius: 2rem;
+    width: 30vw;
+    height: 7vh;
+    font-weight: 500;
+    cursor: pointer;
+    color: #000000;
+    margin: auto;
+}
+
+.alternativas label:hover {
+    background-color: #83838377;
+    color: #000000;
+    transition-duration: .5s;
+    
+}
+
+.alternativas label:has(input:checked) {
+   background-color: #adb5bd;
+    color: #000000;
+}
+
+.alternativas div {
+    display: flex;
+    align-items: center;
+}
+
+.alternativas div p {
+    font-family: Open Sans, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.alternativas div span {
+    font-family: Open Sans, sans-serif;
+    display: block;
+    width: 4vw;
+    height: 7vh;
+    font-size: 4.2rem;
+    font-weight: 600;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.4rem;
+    color: #FFFFFF;
+    border-radius: 2rem;
+}
+
+span.spans-sistema-digestorio {
+    background-color: #FFBD59;
+}
+span.spans-sistema-respiratorio {
+    background-color: #004AAD;
+}
+span.spans-sistema-circulatorio {
+    background-color: #EE3521;
+}
+span.spans-sistema-nervoso {
+    background-color: #35AE11;
+}
+span.spans-sistema-muscular {
+    background-color: #E65051;
+}
+
+
+.alternativas input {
+    display: none;
+}
+
+.alternativas button {
+    font-family: Open Sans, sans-serif;
+    margin-top: 3.5rem;
+    margin-left: 33rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 3rem;
+    height: 7vh;
+    width: 63.7vw;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--branco);
+}
+
+.alternativas button:hover {
+    background-color: grey;
+    color: white;
+    transition-duration: .5s;
+}
+
+button.botao-sistema-digestorio {
+    background-color: #FFBD59;
+}
+button.botao-sistema-respiratorio {
+    background-color: #004AAD;
+}
+button.botao-sistema-circulatorio {
+    background-color: #EE3521;
+}
+button.botao-sistema-nervoso {
+    background-color: #35AE11;
+}
+button.botao-sistema-muscular {
+    background-color: #E65051;
+}
+
+  .alternativas label#correta {
+    background-color: #68E144;
+    & span {
+        background: #35AE11;
+        color: white;
+    }
+}
+
+.alternativas label#errada {
+    background-color: #FF8282;
+    
+    & span {
+        background: #FF4C4C;
+        color: white;
+    }
+}

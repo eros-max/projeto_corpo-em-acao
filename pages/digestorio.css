@@ -23,6 +23,7 @@ body{
     --amarelo-banana: #FFDE59;
     --verde-folha: #35AE11;
     --azul-ciano: #0CC0DF;
+    --vermelho: #FF4C4C;
     --vermelho-claro: #FE6565;
     --branco: #FFF;
     --azul-escuro: #004AAD;
@@ -66,7 +67,7 @@ header{
     padding: 3.0rem 6%;
     top: -1.3rem;
     left: 0;
-    background: var(--vermelho-claro);
+    background:#FF4C4C;
     font-size: 1.8rem;
 }
 
@@ -88,7 +89,11 @@ header ul{
 header ul li{
     font-family: 'Montserrat', sans-serif;
     display:inline-block;
-    margin-left: 20.0rem;
+    margin-left: 10.0rem;
+}
+
+header nav {
+    padding-left: 40rem;
 }
 
 header ul li a{
@@ -98,7 +103,7 @@ header ul li a{
 
 .sistemas-li {
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .login button{
@@ -211,8 +216,8 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 4.0rem;
-    padding-bottom: 5.0rem;
-    margin-top: -5.0rem;
+    padding-bottom: 9.0rem;
+    margin-top: 4.0rem;
 }
 
 .icone {
@@ -296,9 +301,12 @@ main {
 
 .glandulas {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 46.2rem;
     padding-top: 3.2rem;
     margin-bottom: 10.0rem;
+    gap: 10rem;
 }
 
 .glandulastitulo {
@@ -321,6 +329,7 @@ main {
     font-size: 1.8rem;
 }
 .glandulas div {
+    margin: .09rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -333,7 +342,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: auto;
+    margin-right: 200rem;
     padding: 5.0rem;
     width: 36.0rem;
     height: 32.0rem;
@@ -382,6 +391,7 @@ main {
 .iconpartes {
     margin-left: 18rem;
 }
+
 .boca {
     display: flex;
     justify-content: center;

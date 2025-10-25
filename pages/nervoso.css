@@ -17,7 +17,7 @@ html {
     --amarelo-banana: #FFDE59;
     --verde-folha: #35AE11;
     --azul-ciano: #0CC0DF;
-    --vermelho-claro: #FE6565;
+    --vermelho: #FF4C4C;
     --branco: #FFF;
     --azul-escuro: #004AAD;
     --vermelho-bem-claro: #F4A6A6;
@@ -61,7 +61,7 @@ header{
     padding: 3.0rem 6%;
     top: -1.3rem;
     left: 0;
-    background: #FE6565;
+    background: #FF4C4C;
     font-size: 1.8rem;
 }
 
@@ -83,7 +83,11 @@ header ul{
 header ul li{
     font-family: 'Montserrat', sans-serif;
     display:inline-block;
-    margin-left: 20.0rem;
+    margin-left: 10.0rem;
+}
+
+header nav {
+    padding-left: 40rem;
 }
 
 header ul li a{
@@ -93,7 +97,7 @@ header ul li a{
 
 .sistemas-li {
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .login button{
@@ -212,6 +216,10 @@ header ul li a{
     justify-content: center;
     align-content: center;
     margin-left: 300px;
+    font-size: 50px;
+}
+
+.vasos-sangue2 {
     font-size: 50px;
 }
 
@@ -457,7 +465,7 @@ header ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-inline: 25rem;]
+    margin-inline: 25rem;
 }
 
 .encefalo {

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  html {
+    margin: auto;
+    margin-top: 6rem;
+    background: #FFDE59;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.25rem;
+  }
+
+  html.fundo-sistema-digestorio {
+    background-color: #FFDE59;
+
+    h1 {
+      color: #FFBD59;
+    }
+  }
+  html.fundo-sistema-respiratorio {
+    background-color: #004AAD;
+
+    h1 {
+      color: #2D87FF;
+    }
+  }
+  html.fundo-sistema-circulatorio {
+    background-color: #EE3521;
+
+    h1 {
+      color: #EE3521;
+    }
+  }
+  html.fundo-sistema-nervoso {
+    background-color: #35AE11;
+
+    h1{
+      color: #68E144;
+    }
+  }
+  html.fundo-sistema-muscular {
+    background-color: #EB7879;
+
+    h1{
+      color: #EB7879;
+    }
+  }
+
+  body {
+
+    margin: auto;
+    background-color: white;
+    border-radius: 2rem;
+    height: 78vh;
+    width: 32vw;
+    margin-top: 2.5vh;
+  }
+  body img {
+    margin-top: -7vh;
+  }
+
+  img {
+    width: 8vw;
+    height: 14vh;
+  }
+
+  h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 2.8rem;
+    
+  }
+
+  p {
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 4vh;
+  }
+  
+  section {
+    margin: auto;
+    height: 19vh;
+    width: 11vw;
+    border-radius: 100%;
+  }
+
+  section.cor-sistema-digestorio {
+    background-color: #FFAD30;
+  }
+  section.cor-sistema-respiratorio {
+    background-color: #004AAD;
+  }
+  section.cor-sistema-circulatorio {
+    background-color: #EE3521;
+  }
+  section.cor-sistema-nervoso {
+    background-color: #35AE11;
+  }
+  section.cor-sistema-muscular {
+    background-color: #E65051;
+  }
+
+  section p {
+    font-family: Poppins, sans-serif;
+    padding-top: 5vh;
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  .parabens {
+    margin-top: 3vh;
+  }
+
+  .texto {
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    margin: auto;
+    width: 20vw;
+    text-align: center;
+    padding-block: 1.5vh 4.5vh;
+  }
+
+  .botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 1.2vw;
+  }
+
+  .repeat {
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    padding-inline: 1.5rem;
+    padding-block: .8rem;
+    background-color: white;
+    border-radius: 1.2rem;
+    font-weight: 500;
+  }
+
+  .repeat:hover {
+    cursor: pointer;
+  }
+
+
+  .leave {
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    padding-inline: 2.5rem;
+    padding-block: .8rem;
+    
+    border: none;
+    border-radius: 1.2rem;
+    font-weight: 500;
+  }
+
+  .leave:hover {
+    cursor: pointer;
+  }
+
+  .leave.botao-sistema-digestorio {
+    background-color: #FFBD59;
+  }
+  .repeat.botao-sistema-digestorio {
+    border: solid .2rem #FFBD59;
+  }
+
+  .leave.botao-sistema-respiratorio {
+    background-color: #2D87FF;
+  }
+  .repeat.botao-sistema-respiratorio {
+    border: solid .2rem #2D87FF;
+  }
+
+  .leave.botao-sistema-circulatorio {
+    background-color: #FF4C4C;
+  }
+  .repeat.botao-sistema-circulatorio {
+    border: solid .2rem #FF4C4C;
+  }
+
+  .leave.botao-sistema-nervoso {
+    background-color: #68E144;
+  }
+  .repeat.botao-sistema-nervoso {
+    border: solid .2rem #68E144;
+  }
+
+  .leave.botao-sistema-muscular {
+    background-color: #EB7879;
+  }
+  .repeat.botao-sistema-muscular {
+    border: solid .2rem #EB7879;
+  }

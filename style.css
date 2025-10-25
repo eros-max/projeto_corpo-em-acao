@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -55,6 +56,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
 }
 
 header{
@@ -62,7 +64,7 @@ header{
     padding: 3.0rem 6%;
     top: -1.3rem;
     left: 0;
-    background: #FE6565;
+    background: #FF4C4C;
     font-size: 1.8rem;
 }
 
@@ -78,13 +80,18 @@ header i{
 }
 
 header ul{
+   
     list-style-type: none;
 }
 
 header ul li{
     font-family: 'Montserrat', sans-serif;
     display:inline-block;
-    margin-left: 20.0rem;
+    margin-left: 10.0rem;
+}
+
+header nav {
+    padding-left: 40rem;
 }
 
 header ul li a{
@@ -117,7 +124,8 @@ main {
 }
 
 .texto h1 {
-    font-size: 6.0rem;
+    font-family: Poppins, sans-serif;
+    font-size: 5.5rem;
     font-weight: bold;
     margin-bottom: 4.0rem;
 }
@@ -135,7 +143,7 @@ main {
 }
 
 .imagem img {
-    width: 40rem;
+    width: 25vw;
 }
 
 .barra {
@@ -169,6 +177,7 @@ main {
 }
 
 .icones-descobrir {
+    font-family: Poppins, sans-serif;
     display: flex;
     margin-inline: 36.0rem;
     font-size: 2.0rem;
@@ -241,6 +250,7 @@ a {
 }
 
 .item-icone {
+    font-family: Poppins, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -284,17 +294,20 @@ a {
 }
 
 .textos-voce-sabia h2 {
+    font-family: Montserrat, sans-serif;
     font-size: 4.5rem;
     margin-bottom: 2.0rem;
 }
 
 .textos-voce-sabia h3 {
+    font-family: Open-sans, sans-serif;
     font-size: 2.3rem;
     margin-bottom: 4.0rem;
 }
 
 .textos-voce-sabia a {
-    margin-left: -10.0rem;
+    font-family: Open-sans,sans-serif;
+    margin-left: -14.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -304,15 +317,16 @@ a {
     background-color: var(--verde-folha);
     color: var(--branco);
     border-radius: 2.0rem;
-    height: 5.5rem;
+    height: 5vh;
     text-decoration: none;
-    width: 22.0rem;
+    width: 10.5vw;
     font-weight: 700;
     font-size: 2.3rem;
     cursor: pointer;
 }
 
 .videos {
+    font-family: Open-sans, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -464,6 +478,7 @@ a {
 }
 
 .nosso-grupo h2 {
+    font-family: Open-sans,sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -515,6 +530,7 @@ footer {
     font-size: 2.0rem;
     font-weight: bold;
     margin-bottom: 1.0rem;
+    margin-left: -12rem;
 }
 
 .footer-logo h2 span {
@@ -522,21 +538,29 @@ footer {
 }
 
 .footer-logo p {
+    font-family: Poppins, sans-serif;
+    margin-left: 2rem;
     font-size: 1.4rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.6rem;
 }
 
 .social-icons img {
     color: white;
+    margin-left: 2rem;
     font-size: .4rem;
-    margin-right: 4.5rem;
+    margin-right: 2.5rem;
     text-decoration: none;
 }
 
+.footer-menu {
+    font-family: Poppins, sans-serif;
+    margin-right: 4rem;
+}   
+
 .footer-menu h3 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    margin-bottom: 1.0rem;
+    margin-bottom: 1.5rem;
 }
 
 .footer-menu ul {
@@ -544,7 +568,7 @@ footer {
 }
 
 .footer-menu ul li {
-    margin-bottom: .8rem;
+    margin-bottom: 1.2rem;
 }
 
 .footer-menu ul li a {
@@ -617,6 +641,10 @@ footer {
 .textos-explorar h2 {
     font-size: 2.3rem;
     margin-bottom: 3.0rem;
+}
+
+@media(max-width: 1367px) {
+    
 }
 
 
