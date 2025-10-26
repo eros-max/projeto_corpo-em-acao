@@ -41,7 +41,7 @@ body{
 
     img {
     width: 6vw;
-    margin-inline: 15rem 3rem;
+    margin-inline: 12rem 3rem;
    }
 }
 
@@ -93,7 +93,7 @@ body{
 }
 
 .barra-cinza{
-    width: 64vw;
+    width: 124rem;
    height: 1.5vh;
    background-color: rgb(214, 212, 212);
    border-radius: 1.5rem;
@@ -143,7 +143,7 @@ body{
    padding-right: 4rem;
    padding-top: 8rem;
    font-weight: 600;
-    width: 60vw;
+    width: 120rem;
     text-align: center;
 }
 
@@ -188,8 +188,8 @@ h3{
 .alternativas label {
     background-color: #EAEAEA;
     border-radius: 2rem;
-    width: 30vw;
-    height: 7vh;
+    width: 58rem;
+    height: 7rem;
     font-weight: 500;
     cursor: pointer;
     color: #000000;
@@ -222,8 +222,8 @@ h3{
 .alternativas div span {
     font-family: Open Sans, sans-serif;
     display: block;
-    width: 4vw;
-    height: 7vh;
+    width: 8rem;
+    height: 7rem;
     font-size: 4.2rem;
     font-weight: 600;
     
@@ -259,12 +259,12 @@ span.spans-sistema-muscular {
 .alternativas button {
     font-family: Open Sans, sans-serif;
     margin-top: 3.5rem;
-    margin-left: 33rem;
+    margin-left: 34rem;
     border-radius: 2rem;
     border: none;
     font-size: 3rem;
-    height: 7vh;
-    width: 63.7vw;
+    height: 7rem;
+    width: 124rem;
     font-weight: 700;
     cursor: pointer;
     color: var(--branco);

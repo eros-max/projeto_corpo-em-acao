@@ -495,19 +495,15 @@ a {
     gap: 8.0rem;
 }
 
-.fotos p {
+.fotos img {
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 700;
+    margin-bottom: .5rem;
 }
 
-.fotos img {
-    border: .3rem solid var(--azul-escuro);
-    border-radius: 100%;
-    width: 11.5rem;
-    height: 11.5rem;
-}
+
 
 
 
